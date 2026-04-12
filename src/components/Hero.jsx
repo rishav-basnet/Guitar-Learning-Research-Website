@@ -10,8 +10,8 @@ export default function Hero() {
       <p className="hero__metric">
         BPM controls speed, and mode controls how much time is available to
         switch chords. Performance is measured using{' '}
-        <span className="hero__term">clean_ratio</span> (
-        <span className="hero__term">successful_trials</span> / 4).
+        <span className="term">clean_ratio</span> (
+        <span className="term">successful_trials</span> / 4).
       </p>
       <p className="hero__note">
         <a

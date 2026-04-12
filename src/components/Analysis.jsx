@@ -5,17 +5,16 @@ export default function Analysis() {
     <Section id="analysis" title="Analysis">
       <p>
         Each row represents one block: a single (session, mode, BPM)
-        combination. <span className="hero__term">successful_trials</span> is
-        the number of clean transitions (0–4).{' '}
-        <span className="hero__term">clean_ratio</span> is{' '}
-        <span className="hero__term">successful_trials</span> / 4. The dataset
+        combination. <span className="term">successful_trials</span> is the
+        number of clean transitions (0–4). <span className="term">clean_ratio</span>{' '}
+        is <span className="term">successful_trials</span> / 4. The dataset
         is fully structured with no missing conditions.
       </p>
       <div className="analysis-blocks">
         <figure className="analysis-figure">
           <h3 className="analysis-block__title">Session trend</h3>
           <p className="analysis-block__text">
-            Average <span className="hero__term">clean_ratio</span> across all
+            Average <span className="term">clean_ratio</span> across all
             conditions per session — learning progression over sessions.
           </p>
           <div className="analysis-figure__frame">
@@ -49,7 +48,7 @@ export default function Analysis() {
           </h3>
           <p className="analysis-block__text">
             Highest BPM where performance remains mostly clean: max BPM where{' '}
-            <span className="hero__term">clean_ratio</span> ≥ 0.75.
+            <span className="term">clean_ratio</span> ≥ 0.75.
           </p>
           <div className="analysis-figure__frame">
             <img
