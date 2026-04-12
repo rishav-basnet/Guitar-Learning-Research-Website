@@ -1,16 +1,28 @@
-# React + Vite
+# Guitar Skill Acquisition Study — site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Presentation site for the [Guitar Learning Research](https://github.com/rishav-basnet/Guitar-Learning-Research) project (React + Vite).
 
-Currently, two official plugins are available:
+**Live site:** [rishav-guitar-research.vercel.app](https://rishav-guitar-research.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Run locally
 
-## React Compiler
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Open the URL Vite prints (usually `http://localhost:5173`).
 
-## Expanding the ESLint configuration
+Other scripts:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- `npm run build` — production build to `dist/`
+- `npm run preview` — serve the built `dist/` locally
+
+## Deployment (Vercel)
+
+The repo is connected to Vercel via GitHub. **Pushes to `main` trigger a new production deploy** using:
+
+- **Build command:** `npm run build`
+- **Output directory:** `dist`
+
+No backend or env vars are required for this static app. Vercel’s Vite preset picks the above up automatically; the repo keeps `build.outDir` set to `dist` in `vite.config.js` so local and CI builds stay aligned.
