@@ -118,16 +118,17 @@
 .analysis-blocks {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2.25rem;
   margin-top: 1.5rem;
 }
 
-.analysis-block {
-  padding: 1rem 0 0;
+.analysis-figure {
+  margin: 0;
+  padding: 1.5rem 0 0;
   border-top: 1px solid var(--border);
 }
 
-.analysis-block:first-child {
+.analysis-figure:first-child {
   padding-top: 0;
   border-top: none;
 }
@@ -139,8 +140,22 @@
 }
 
 .analysis-block__text {
-  margin: 0;
+  margin: 0 0 1rem;
   color: var(--text-muted);
   font-size: 0.95rem;
   line-height: 1.55;
+}
+
+.analysis-figure__frame {
+  margin: 0;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.analysis-figure__frame img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
