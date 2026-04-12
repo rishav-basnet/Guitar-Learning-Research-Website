@@ -159,3 +159,11 @@
   width: 100%;
   height: auto;
 }
+
+.reflection__note {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
