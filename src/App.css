@@ -114,3 +114,33 @@
 .text-link:hover {
   text-decoration-thickness: 2px;
 }
+
+.analysis-blocks {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.analysis-block {
+  padding: 1rem 0 0;
+  border-top: 1px solid var(--border);
+}
+
+.analysis-block:first-child {
+  padding-top: 0;
+  border-top: none;
+}
+
+.analysis-block__title {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.analysis-block__text {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
