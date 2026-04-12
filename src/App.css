@@ -7,58 +7,80 @@
 
 .hero {
   margin: 0 auto;
-  padding: 3.5rem 0 3rem;
+  padding: 4rem 0 3.25rem;
   border-bottom: 1px solid var(--border);
 }
 
+.hero--centered {
+  text-align: center;
+}
+
 .hero__label {
-  margin: 0 0 0.75rem;
+  margin: 0 0 1rem;
   font-size: 0.75rem;
-  letter-spacing: 0.12em;
+  letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--text-muted);
 }
 
 .hero__title {
-  margin: 0 0 1rem;
-  font-size: clamp(1.75rem, 5vw, 2.25rem);
-  font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  margin: 0 0 1.25rem;
+  font-size: clamp(2.125rem, 6.5vw, 3.25rem);
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+  color: var(--text);
 }
 
-.hero__lede {
-  margin: 0 0 1rem;
-  font-size: 1.125rem;
-  line-height: 1.55;
+.hero__subtitle {
+  margin: 0 auto 1.25rem;
+  max-width: 28rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--text-muted);
 }
 
 .hero__metric {
-  margin: 0 0 1.25rem;
+  margin: 0 auto 1.75rem;
+  max-width: 34rem;
   color: var(--text-muted);
   font-size: 0.95rem;
-  line-height: 1.55;
+  line-height: 1.6;
+}
+
+.hero__github-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 1rem;
+  padding: 0.7rem 1.35rem;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #0f172a;
+  background-color: var(--accent);
+  text-decoration: none;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.hero__github-btn:hover {
+  background-color: #4ade80;
+  color: #0f172a;
+}
+
+.hero__caption {
+  margin: 0 auto;
+  max-width: 26rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: var(--text-muted);
 }
 
 .term {
   font-family: ui-monospace, 'Cascadia Code', monospace;
   font-size: 0.9em;
-}
-
-.hero__note {
-  margin: 0;
-  font-size: 0.9rem;
-  color: var(--text-muted);
-}
-
-.hero__link {
-  color: var(--accent);
-  text-decoration: underline;
-  text-underline-offset: 0.15em;
-}
-
-.hero__link:hover {
-  text-decoration-thickness: 2px;
 }
 
 .main {
