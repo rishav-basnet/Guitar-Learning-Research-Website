@@ -1,6 +1,10 @@
-export default function Section({ id, title, children }) {
+export default function Section({ id, title, children, className = '' }) {
   return (
-    <section className="section" id={id} aria-labelledby={`${id}-heading`}>
+    <section
+      className={['section', className].filter(Boolean).join(' ')}
+      id={id}
+      aria-labelledby={`${id}-heading`}
+    >
       <h2 className="section__title" id={`${id}-heading`}>
         {title}
       </h2>

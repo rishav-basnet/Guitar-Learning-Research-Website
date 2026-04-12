@@ -194,3 +194,30 @@
   font-size: 0.9rem;
   color: var(--text-muted);
 }
+
+.insights-card {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.75rem 2rem 1.85rem;
+  border-left: 4px solid var(--accent);
+}
+
+.insights-card__list {
+  margin: 0;
+  padding-left: 1.25rem;
+  color: var(--text);
+  line-height: 1.65;
+}
+
+.insights-card__list li {
+  margin-bottom: 0.65rem;
+}
+
+.insights-card__list li:last-child {
+  margin-bottom: 0;
+}
+
+.section--insights .section__title {
+  color: var(--accent);
+}
