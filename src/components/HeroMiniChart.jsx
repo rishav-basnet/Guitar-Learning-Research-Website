@@ -4,7 +4,7 @@
 export default function HeroMiniChart() {
   return (
     <div className="hero-mini-chart" aria-hidden="true">
-      <p className="hero-mini-chart__label">clean_ratio trend</p>
+      <p className="hero-mini-chart__label">My progress over time</p>
       <svg
         className="hero-mini-chart__svg"
         viewBox="0 0 200 88"
