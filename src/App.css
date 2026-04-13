@@ -120,82 +120,93 @@
 }
 
 .hero {
-  margin: 0 auto;
-  padding: var(--sp-16) var(--sp-6) var(--sp-12);
+  margin: 0;
+  padding-block: var(--sp-20) var(--sp-16);
   border-bottom: 1px solid var(--border);
 }
 
-@media (min-width: 640px) {
-  .hero {
-    padding-inline: var(--sp-8);
+.hero__layout {
+  display: grid;
+  gap: var(--sp-10);
+  align-items: stretch;
+}
+
+@media (min-width: 900px) {
+  .hero__layout {
+    grid-template-columns: minmax(0, 1fr) minmax(11rem, 17.5rem);
+    gap: var(--sp-12);
   }
 }
 
-.hero--centered {
-  text-align: center;
+.hero__main {
+  max-width: min(var(--prose-width), 100%);
 }
 
 .hero__label {
-  margin: 0 0 1rem;
-  font-size: 0.75rem;
-  letter-spacing: 0.14em;
+  margin: 0 0 var(--sp-4);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
-  color: var(--text-muted);
+  color: var(--text-faint);
 }
 
 .hero__title {
-  margin: 0 0 1.25rem;
-  font-size: clamp(2.125rem, 6.5vw, 3.25rem);
+  margin: 0 0 var(--sp-5);
+  font-size: clamp(2.25rem, 5.5vw, 3.35rem);
   font-weight: 700;
-  line-height: 1.12;
-  letter-spacing: -0.035em;
+  line-height: 1.08;
+  letter-spacing: -0.038em;
   color: var(--text);
 }
 
 .hero__subtitle {
-  margin: 0 auto 1.25rem;
-  max-width: 28rem;
-  font-size: 1.2rem;
+  margin: 0 0 var(--sp-5);
+  font-size: 1.1875rem;
   font-weight: 500;
-  line-height: 1.45;
+  line-height: 1.5;
   color: var(--text-muted);
 }
 
 .hero__metric {
-  margin: 0 auto 1.75rem;
-  max-width: 34rem;
+  margin: 0 0 var(--sp-6);
   color: var(--text-muted);
-  font-size: 0.95rem;
-  line-height: 1.6;
-}
-
-.hero__github-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 0 1rem;
-  padding: 0.7rem 1.35rem;
   font-size: 0.9375rem;
-  font-weight: 600;
-  color: #0f172a;
-  background-color: var(--accent);
-  text-decoration: none;
-  border-radius: 8px;
-  border: 1px solid transparent;
-  transition: background-color 0.15s ease, color 0.15s ease;
+  line-height: 1.68;
+  max-width: 38rem;
 }
 
-.hero__github-btn:hover {
-  background-color: #4ade80;
-  color: #0f172a;
+.hero__actions {
+  margin: 0 0 var(--sp-5);
 }
 
 .hero__caption {
-  margin: 0 auto;
-  max-width: 26rem;
+  margin: 0;
+  max-width: 32rem;
   font-size: 0.875rem;
-  line-height: 1.5;
-  color: var(--text-muted);
+  line-height: 1.6;
+  color: var(--text-faint);
+}
+
+.hero__panel {
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-strong);
+  min-height: 10rem;
+  background:
+    linear-gradient(
+      145deg,
+      var(--surface-raised) 0%,
+      var(--surface) 42%,
+      rgba(62, 207, 142, 0.14) 100%
+    );
+  box-shadow: var(--shadow-sm);
+}
+
+@media (max-width: 899px) {
+  .hero__panel {
+    min-height: 6rem;
+    max-width: 20rem;
+  }
 }
 
 .term {
