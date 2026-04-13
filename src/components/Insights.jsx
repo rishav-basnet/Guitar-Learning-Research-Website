@@ -5,19 +5,19 @@ export default function Insights() {
   return (
     <Section id="insights" title="Key insights" className="section--insights">
       <div className="insights-grid">
-        <InsightCard title="Overall trajectory">
+        <InsightCard>
           Performance shows an overall upward trend across sessions.
         </InsightCard>
-        <InsightCard title="Non-linear progress">
+        <InsightCard>
           Learning is not linear, with plateaus and short regressions.
         </InsightCard>
-        <InsightCard title="Tempo and difficulty">
+        <InsightCard>
           Higher BPM generally reduces performance, especially in harder modes.
         </InsightCard>
-        <InsightCard title="Mode spread">
+        <InsightCard>
           Modes 3–4 consistently perform worse than modes 1–2.
         </InsightCard>
-        <InsightCard title="Session variability">
+        <InsightCard>
           Performance varies noticeably across sessions, even under the same
           conditions.
         </InsightCard>
