@@ -374,17 +374,17 @@
 }
 
 .main .section:first-of-type {
-  padding-top: clamp(var(--sp-12), 5vw, var(--sp-20));
+  padding-top: clamp(var(--sp-16), 6vw, var(--sp-24));
 }
 
 .main .section + .section {
-  margin-top: var(--sp-12);
-  padding-top: clamp(3rem, 5vw, 5.5rem);
-  border-top: 1px solid rgba(42, 55, 80, 0.55);
+  margin-top: var(--sp-16);
+  padding-top: clamp(3.25rem, 5.5vw, 6rem);
+  border-top: 1px solid rgba(42, 55, 80, 0.42);
 }
 
 .section__head {
-  margin: 0 0 var(--sp-8);
+  margin: 0 0 var(--sp-10);
 }
 
 .section__title {
@@ -436,6 +436,14 @@
 
 .card p + .subsection-title {
   margin-top: var(--sp-8);
+}
+
+.motivation__lede {
+  margin: 0 0 var(--sp-5);
+  max-width: var(--prose-width);
+  font-size: 0.9375rem;
+  line-height: 1.68;
+  color: var(--text-muted);
 }
 
 .prose-list {
