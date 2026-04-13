@@ -1,14 +1,31 @@
 .app {
-  max-width: 56.25rem;
-  margin: 0 auto;
-  padding: 0 1.5rem 5rem;
   min-height: 100%;
+  padding-bottom: var(--sp-20);
+}
+
+.container {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--sp-6);
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-inline: var(--sp-8);
+  }
 }
 
 .hero {
   margin: 0 auto;
-  padding: 4rem 0 3.25rem;
+  padding: var(--sp-16) var(--sp-6) var(--sp-12);
   border-bottom: 1px solid var(--border);
+}
+
+@media (min-width: 640px) {
+  .hero {
+    padding-inline: var(--sp-8);
+  }
 }
 
 .hero--centered {
@@ -84,8 +101,7 @@
 }
 
 .main {
-  margin: 0 auto;
-  padding: 0 0 1rem;
+  margin: 0;
 }
 
 .section {

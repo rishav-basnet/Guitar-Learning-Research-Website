@@ -1,4 +1,5 @@
 import './App.css'
+import Container from './components/Container'
 import Hero from './components/Hero'
 import Motivation from './components/Motivation'
 import ExperimentDesign from './components/ExperimentDesign'
@@ -11,11 +12,13 @@ function App() {
     <div className="app">
       <Hero />
       <main className="main">
-        <Motivation />
-        <ExperimentDesign />
-        <Analysis />
-        <Insights />
-        <Reflection />
+        <Container>
+          <Motivation />
+          <ExperimentDesign />
+          <Analysis />
+          <Insights />
+          <Reflection />
+        </Container>
       </main>
     </div>
   )
