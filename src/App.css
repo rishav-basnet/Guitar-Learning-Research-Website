@@ -228,6 +228,12 @@
   padding-block: clamp(3.5rem, 10vw, var(--sp-24)) clamp(2.5rem, 6vw, var(--sp-20));
   border-bottom: 1px solid rgba(36, 48, 68, 0.9);
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+  font-family:
+    'Plus Jakarta Sans',
+    'Inter',
+    system-ui,
+    -apple-system,
+    sans-serif;
 }
 
 .hero__layout {
@@ -252,8 +258,8 @@
   margin: 0 0 var(--sp-6);
   font-size: clamp(2.25rem, 5.5vw, 3.35rem);
   font-weight: 700;
-  line-height: 1.06;
-  letter-spacing: -0.036em;
+  line-height: 1.08;
+  letter-spacing: 0.028em;
   color: var(--text);
   text-wrap: balance;
 }
@@ -263,6 +269,7 @@
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.72;
+  letter-spacing: 0.018em;
   color: var(--text-muted);
   max-width: 42ch;
 }
