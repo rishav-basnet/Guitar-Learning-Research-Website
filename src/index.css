@@ -1,12 +1,50 @@
 :root {
-  /* Dark theme */
-  --bg: #0f172a;
-  --text: #e5e7eb;
-  --text-muted: #94a3b8;
-  --accent: #22c55e;
-  --card: #1e293b;
-  --surface: #1e293b;
-  --border: #334155;
+  /* Surfaces */
+  --bg-base: #090f1a;
+  --bg-elevated: #0f1628;
+  --surface: #141c2f;
+  --surface-raised: #1a2439;
+  --border: #2a3750;
+  --border-strong: #3d4d6b;
+
+  /* Text */
+  --text: #f0f4f8;
+  --text-muted: #9fb0c8;
+  --text-faint: #6b7d95;
+
+  /* Accent */
+  --accent: #3ecf8e;
+  --accent-hover: #5fdfaa;
+  --accent-subtle: rgba(62, 207, 142, 0.12);
+
+  /* Legacy aliases used in stylesheets */
+  --bg: var(--bg-base);
+  --card: var(--surface-raised);
+
+  /* Spacing (8px scale) */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.25rem;
+  --sp-6: 1.5rem;
+  --sp-8: 2rem;
+  --sp-10: 2.5rem;
+  --sp-12: 3rem;
+  --sp-16: 4rem;
+  --sp-20: 5rem;
+  --sp-24: 6rem;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 18px;
+
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.45);
+  --shadow-md: 0 12px 40px rgba(0, 0, 0, 0.35);
+
+  --prose-width: 65ch;
+  --container-max: 56rem;
 
   font-family:
     'Inter',
@@ -15,10 +53,10 @@
     BlinkMacSystemFont,
     'Segoe UI',
     sans-serif;
-  font-size: 18px;
-  line-height: 1.65;
+  font-size: 17px;
+  line-height: 1.72;
   color: var(--text);
-  background-color: var(--bg);
+  background-color: var(--bg-base);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -32,6 +70,10 @@
 
 body {
   margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(ellipse 120% 80% at 50% -20%, rgba(62, 207, 142, 0.08), transparent 50%),
+    linear-gradient(180deg, var(--bg-base) 0%, var(--bg-elevated) 40%, var(--bg-base) 100%);
 }
 
 #root {
@@ -39,10 +81,11 @@ body {
 }
 
 ::selection {
-  background: rgba(34, 197, 94, 0.25);
+  background: rgba(62, 207, 142, 0.28);
 }
 
-a:focus-visible {
+a:focus-visible,
+button:focus-visible {
   outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
