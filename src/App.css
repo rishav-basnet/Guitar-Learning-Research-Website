@@ -506,6 +506,58 @@
   letter-spacing: -0.022em;
 }
 
+/* ----- Experiment grid ----- */
+.experiment-grid {
+  display: grid;
+  gap: var(--sp-5);
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 720px) {
+  .experiment-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--sp-6);
+  }
+}
+
+.experiment-card__title {
+  margin: 0 0 var(--sp-3);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.experiment-card__lede {
+  margin: 0 0 var(--sp-4);
+  font-size: 0.9375rem;
+  line-height: 1.68;
+  color: var(--text-muted);
+}
+
+.experiment-card__list {
+  margin: 0;
+  padding-left: 1.125rem;
+  color: var(--text);
+  line-height: 1.65;
+  font-size: 0.9375rem;
+  list-style-position: outside;
+}
+
+.experiment-card__list li {
+  margin-bottom: var(--sp-3);
+  padding-left: var(--sp-1);
+}
+
+.experiment-card__list li::marker {
+  color: var(--text-faint);
+}
+
+.experiment-card__list li:last-child {
+  margin-bottom: 0;
+}
+
 /* ----- Metrics strip ----- */
 .metrics-strip {
   padding-block: var(--sp-8) var(--sp-6);
