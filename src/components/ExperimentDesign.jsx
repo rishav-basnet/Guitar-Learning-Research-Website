@@ -53,7 +53,7 @@ export default function ExperimentDesign() {
           </ul>
         </Card>
         <Card interactive>
-          <h3 className="experiment-card__title">Rules / protocol</h3>
+          <h3 className="experiment-card__title">Practice Rules</h3>
           <p className="experiment-card__lede">
             Protocol video (same routine each session):{' '}
             <a
