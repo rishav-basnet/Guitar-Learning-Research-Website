@@ -16,6 +16,109 @@
   }
 }
 
+/* ----- Card ----- */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: var(--sp-6) var(--sp-8);
+  box-shadow: var(--shadow-sm);
+}
+
+@media (max-width: 639px) {
+  .card {
+    padding: var(--sp-5) var(--sp-5);
+  }
+}
+
+.card--accent {
+  border-left: 4px solid var(--accent);
+  background: linear-gradient(
+    90deg,
+    var(--accent-subtle) 0%,
+    var(--surface) 28%
+  );
+}
+
+/* ----- Button (link as button) ----- */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 0.9375rem;
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.12s ease;
+}
+
+.btn--primary {
+  padding: var(--sp-3) var(--sp-6);
+  color: var(--bg-base);
+  background-color: var(--accent);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12) inset;
+}
+
+.btn--primary:hover {
+  background-color: var(--accent-hover);
+  color: var(--bg-base);
+}
+
+.btn--primary:active {
+  transform: translateY(1px);
+}
+
+/* ----- Chart block ----- */
+.chart {
+  margin: 0;
+  width: 100%;
+  max-width: 48rem;
+  margin-inline: auto;
+}
+
+.chart__header {
+  text-align: center;
+  margin-bottom: var(--sp-5);
+  max-width: var(--prose-width);
+  margin-inline: auto;
+}
+
+.chart__title {
+  margin: 0 0 var(--sp-2);
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+.chart__caption {
+  margin: 0;
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--text-muted);
+}
+
+.chart__frame {
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-strong);
+  background: var(--surface-raised);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+}
+
+.chart__frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
 .hero {
   margin: 0 auto;
   padding: var(--sp-16) var(--sp-6) var(--sp-12);
