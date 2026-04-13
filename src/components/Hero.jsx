@@ -9,7 +9,6 @@ export default function Hero() {
       <Container>
         <div className="hero__layout">
           <div className="hero__main">
-            <p className="hero__label">Practice study</p>
             <h1 className="hero__title">Guitar Skill Acquisition Study</h1>
             <p className="hero__subtitle">
               A ↔ E chord transitions measured under tempo and mode pressure.
