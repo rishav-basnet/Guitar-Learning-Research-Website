@@ -1,10 +1,11 @@
+import Card from './Card'
 import Section from './Section'
 
 export default function Insights() {
   return (
     <Section id="insights" title="Key insights" className="section--insights">
-      <div className="insights-card">
-        <ul className="insights-card__list">
+      <Card variant="accent">
+        <ul className="insights-list">
           <li>Performance shows an overall upward trend across sessions.</li>
           <li>
             Learning is not linear, with plateaus and short regressions.
@@ -19,7 +20,7 @@ export default function Insights() {
             conditions.
           </li>
         </ul>
-      </div>
+      </Card>
     </Section>
   )
 }
