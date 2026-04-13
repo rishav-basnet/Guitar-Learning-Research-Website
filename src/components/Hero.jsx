@@ -1,7 +1,6 @@
 import Button from './Button'
 import Container from './Container'
 import HeroMiniChart from './HeroMiniChart'
-import KeywordBadge from './KeywordBadge'
 
 export default function Hero() {
   return (
@@ -11,12 +10,12 @@ export default function Hero() {
           <div className="hero__main">
             <h1 className="hero__title">Guitar Skill Acquisition Study</h1>
             <p className="hero__subtitle">
-              A ↔ E chord transitions measured under tempo and mode pressure.
+              I designed an experiment protocol and measured how much I
+              progressed as a complete beginner over 7 days.
             </p>
             <p className="hero__metric">
-              BPM sets speed; mode sets how long you have to switch. Performance
-              uses <KeywordBadge>clean_ratio</KeywordBadge> (
-              <KeywordBadge>successful_trials</KeywordBadge> / 4).
+              The same short routine ran every day so the results stay easy to
+              compare.
             </p>
             <div className="hero__actions">
               <Button href="https://github.com/rishav-basnet/Guitar-Learning-Research">
@@ -24,13 +23,13 @@ export default function Hero() {
               </Button>
             </div>
             <p className="hero__caption">
-              Experiment protocol, dataset, and analysis code in the reference
+              Protocol notes, saved data, and analysis code are in the GitHub
               repository.
             </p>
           </div>
           <div
             className="hero__panel"
-            aria-label="Illustrative clean ratio trend preview"
+            aria-label="Preview of practice progress over time"
           >
             <HeroMiniChart />
           </div>

@@ -261,9 +261,9 @@
   margin: 0 0 var(--sp-6);
   font-size: 1.125rem;
   font-weight: 500;
-  line-height: 1.55;
+  line-height: 1.72;
   color: var(--text-muted);
-  max-width: 38ch;
+  max-width: 42ch;
 }
 
 .hero__metric {
