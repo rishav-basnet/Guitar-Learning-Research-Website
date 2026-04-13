@@ -57,6 +57,7 @@
     sans-serif;
   font-size: 17px;
   line-height: 1.7;
+  letter-spacing: 0.014em;
   color: var(--text);
   background-color: var(--bg-base);
   font-synthesis: none;

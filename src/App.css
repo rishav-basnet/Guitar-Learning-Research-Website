@@ -110,7 +110,7 @@
   color: var(--bg-base);
   background-color: var(--accent);
   box-shadow: 0 1px 0 rgba(255, 255, 255, 0.12) inset;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.016em;
 }
 
 .btn--primary:hover {
@@ -140,7 +140,7 @@
   font-size: 1.1875rem;
   font-weight: 600;
   line-height: 1.25;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.014em;
   color: var(--text);
 }
 
@@ -218,7 +218,7 @@
   font-size: 0.8125rem;
   font-weight: 600;
   line-height: 1.45;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.016em;
   color: var(--accent-hover);
   text-align: center;
 }
@@ -259,7 +259,7 @@
   font-size: clamp(2.25rem, 5.5vw, 3.35rem);
   font-weight: 700;
   line-height: 1.08;
-  letter-spacing: 0.028em;
+  letter-spacing: 0.034em;
   color: var(--text);
   text-wrap: balance;
 }
@@ -269,7 +269,7 @@
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1.72;
-  letter-spacing: 0.018em;
+  letter-spacing: 0.024em;
   color: var(--text-muted);
   max-width: 42ch;
 }
@@ -334,7 +334,7 @@
   margin: 0;
   font-size: 0.8125rem;
   font-weight: 600;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.026em;
   text-transform: none;
   color: var(--text-muted);
 }
@@ -399,7 +399,7 @@
   font-size: clamp(1.625rem, 3.4vw, 2rem);
   font-weight: 600;
   line-height: 1.2;
-  letter-spacing: -0.028em;
+  letter-spacing: -0.022em;
   color: var(--text);
 }
 
@@ -437,7 +437,7 @@
   margin: var(--sp-10) 0 var(--sp-4);
   font-size: 1.0625rem;
   font-weight: 600;
-  letter-spacing: -0.012em;
+  letter-spacing: -0.006em;
   color: var(--text);
 }
 
@@ -548,7 +548,7 @@
   margin: 0 0 var(--sp-2);
   font-size: 0.8125rem;
   font-weight: 600;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.046em;
   text-transform: uppercase;
   color: var(--accent-hover);
 }
@@ -563,7 +563,7 @@
 
 .section--insights .section__title {
   color: var(--accent-hover);
-  letter-spacing: -0.022em;
+  letter-spacing: -0.016em;
 }
 
 /* ----- Experiment grid ----- */
@@ -584,7 +584,7 @@
   margin: 0 0 var(--sp-3);
   font-size: 0.8125rem;
   font-weight: 600;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.108em;
   text-transform: uppercase;
   color: var(--text-faint);
 }
@@ -702,7 +702,7 @@
   margin: 0 0 var(--sp-2);
   font-size: clamp(1.75rem, 4vw, 2.125rem);
   font-weight: 700;
-  letter-spacing: -0.03em;
+  letter-spacing: -0.024em;
   line-height: 1.1;
   color: var(--text);
 }
@@ -711,7 +711,7 @@
   margin: 0 0 var(--sp-1);
   font-size: 0.75rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.088em;
   text-transform: uppercase;
   color: var(--text-faint);
 }
