@@ -8,7 +8,12 @@ export default function Hero() {
       <Container>
         <div className="hero__layout">
           <div className="hero__main">
-            <h1 className="hero__title">Guitar Skill Acquisition Study</h1>
+            <h1 className="hero__title">
+              <span className="hero__title-line">Guitar Skill Acquisition</span>
+              <span className="hero__title-line hero__title-line--second">
+                Study
+              </span>
+            </h1>
             <p className="hero__subtitle">
               I designed an experiment protocol and measured how much I
               progressed as a complete beginner over 7 days.
