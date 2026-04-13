@@ -1,7 +1,20 @@
-export default function Section({ id, title, children, className = '' }) {
+import { useInView } from '../hooks/useInView'
+
+export default function Section({
+  id,
+  title,
+  children,
+  className = '',
+  reveal = true,
+}) {
+  const [ref, visible] = useInView(reveal)
+  const revealClass =
+    reveal && `section--reveal${visible ? ' is-visible' : ''}`.trim()
+
   return (
     <section
-      className={['section', className].filter(Boolean).join(' ')}
+      ref={ref}
+      className={['section', className, revealClass].filter(Boolean).join(' ')}
       id={id}
       aria-labelledby={`${id}-heading`}
     >

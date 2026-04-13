@@ -4,7 +4,7 @@ import Section from './Section'
 export default function Motivation() {
   return (
     <Section id="motivation" title="Motivation">
-      <Card>
+      <Card interactive>
         <ul className="prose-list">
           <li>
             I was learning guitar and wanted to know whether progress was

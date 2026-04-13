@@ -377,9 +377,9 @@
 }
 
 .main .section + .section {
-  margin-top: var(--sp-10);
-  padding-top: clamp(var(--sp-12), 4vw, var(--sp-20));
-  border-top: 1px solid var(--border);
+  margin-top: var(--sp-12);
+  padding-top: clamp(3rem, 5vw, 5.5rem);
+  border-top: 1px solid rgba(42, 55, 80, 0.55);
 }
 
 .section__head {
@@ -393,6 +393,27 @@
   line-height: 1.2;
   letter-spacing: -0.028em;
   color: var(--text);
+}
+
+.section--reveal {
+  opacity: 0;
+  transform: translateY(12px);
+  transition:
+    opacity 0.48s ease,
+    transform 0.48s ease;
+}
+
+.section--reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .section--reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
 }
 
 .section__body > p {

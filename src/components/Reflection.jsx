@@ -4,7 +4,7 @@ import Section from './Section'
 export default function Reflection() {
   return (
     <Section id="reflection" title="Reflection">
-      <Card>
+      <Card interactive>
         <p>
           Practice felt inconsistent, and the data confirmed that. Progress was
           visible overall, but individual sessions often moved in unexpected
