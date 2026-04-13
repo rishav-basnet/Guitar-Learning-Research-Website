@@ -7,28 +7,13 @@ export default function MetricsStrip() {
       <Container>
         <div className="metrics-strip__grid" role="list">
           <div role="listitem">
-            <MetricCard
-              label="Avg clean ratio"
-              value="0.71"
-              hint="Across all recorded blocks"
-            />
+            <MetricCard label="Avg Clean Ratio" value="0.71" />
           </div>
           <div role="listitem">
-            <MetricCard
-              label="Best BPM achieved"
-              value="110"
-              hint="At ≥0.75 clean_ratio threshold"
-            />
+            <MetricCard label="Best BPM" value="110" />
           </div>
           <div role="listitem">
-            <MetricCard label="Total sessions" value="12" hint="Same protocol" />
-          </div>
-          <div role="listitem">
-            <MetricCard
-              label="Consistency score"
-              value="72%"
-              hint="Session-to-session stability"
-            />
+            <MetricCard label="Total Sessions" value="12" />
           </div>
         </div>
       </Container>
