@@ -1,4 +1,6 @@
 :root {
+  color-scheme: dark;
+
   /* Surfaces */
   --bg-base: #090f1a;
   --bg-elevated: #0f1628;
