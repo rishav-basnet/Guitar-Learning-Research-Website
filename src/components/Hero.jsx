@@ -1,5 +1,7 @@
 import Button from './Button'
 import Container from './Container'
+import HeroMiniChart from './HeroMiniChart'
+import KeywordBadge from './KeywordBadge'
 
 export default function Hero() {
   return (
@@ -14,8 +16,8 @@ export default function Hero() {
             </p>
             <p className="hero__metric">
               BPM sets speed; mode sets how long you have to switch. Performance
-              uses <span className="term">clean_ratio</span> (
-              <span className="term">successful_trials</span> / 4).
+              uses <KeywordBadge>clean_ratio</KeywordBadge> (
+              <KeywordBadge>successful_trials</KeywordBadge> / 4).
             </p>
             <div className="hero__actions">
               <Button href="https://github.com/rishav-basnet/Guitar-Learning-Research">
@@ -27,7 +29,12 @@ export default function Hero() {
               repository.
             </p>
           </div>
-          <div className="hero__panel" aria-hidden="true" />
+          <div
+            className="hero__panel"
+            aria-label="Illustrative clean ratio trend preview"
+          >
+            <HeroMiniChart />
+          </div>
         </div>
       </Container>
     </header>
