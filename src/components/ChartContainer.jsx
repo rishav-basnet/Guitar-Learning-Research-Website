@@ -21,11 +21,9 @@ export default function ChartContainer({ title, caption, takeaway, children }) {
           children
         ) : (
           <div className="chart-container__empty" role="status">
-            <span className="chart-container__empty-label">
-              Data visualization
-            </span>
+            <span className="chart-container__empty-label">Chart loading…</span>
             <span className="chart-container__empty-hint">
-              Chart preview loads from exported figures
+              Figures appear when export paths resolve
             </span>
           </div>
         )}

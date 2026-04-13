@@ -172,14 +172,18 @@
 }
 
 .chart-container--has-media {
+  min-height: 300px;
   padding: var(--sp-3);
+  align-items: center;
 }
 
 .chart-container--has-media img {
   display: block;
   width: 100%;
+  max-width: 100%;
   height: auto;
-  max-height: 20rem;
+  min-height: 240px;
+  max-height: 22rem;
   object-fit: contain;
   border-radius: var(--radius-sm);
 }
