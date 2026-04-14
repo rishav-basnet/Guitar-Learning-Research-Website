@@ -20,23 +20,24 @@ export default function Factors() {
         faster speeds. This suggests that when there is enough time to move
         between chords, speed alone is not a major problem.
       </p>
-      <p>
-        At moderate difficulty (Mode 2), accuracy started to drop as speed
-        increased.
-      </p>
-      <p>
-        At higher difficulty levels (Modes 3 and 4), performance dropped
-        sharply. Even with practice, accuracy stayed low because there simply
-        was not enough time to switch cleanly.
-      </p>
-      <p>
-        This shows that speed does not act on its own — it amplifies
-        difficulty.
-      </p>
-      <p>
-        When switching time becomes too short, performance breaks down
-        regardless of repetition.
-      </p>
+      <ul className="clean-list">
+        <li>
+          At moderate difficulty (Mode 2), accuracy started to drop as speed
+          increased.
+        </li>
+        <li>
+          At higher difficulty levels (Modes 3 and 4), performance dropped
+          sharply.
+        </li>
+        <li>
+          This shows speed does not act alone — it amplifies
+          <span className="highlight"> difficulty</span>.
+        </li>
+        <li>
+          When switching time becomes too short, performance breaks down
+          regardless of repetition.
+        </li>
+      </ul>
       <div className="chart-card">
         <h3 className="chart-title">
           How speed affects accuracy at different difficulty levels

@@ -1178,7 +1178,7 @@ section {
 }
 
 .chart-card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-4px) scale(1.01);
   box-shadow: 0 0 25px rgba(0, 255, 170, 0.15);
 }
 
@@ -1267,6 +1267,13 @@ p {
 
 .highlight {
   color: #6bffa7;
+  font-weight: 500;
+}
+
+.clean-list {
+  margin-top: 16px;
+  padding-left: 18px;
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .main-container {
