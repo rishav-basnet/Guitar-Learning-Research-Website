@@ -1,6 +1,5 @@
 import './App.css'
 import Hero from './components/Hero'
-import MetricsStrip from './components/MetricsStrip'
 import HowItStarted from './components/HowItStarted'
 import TheProblem from './components/TheProblem'
 import HowITested from './components/HowITested'
@@ -14,7 +13,6 @@ function App() {
   return (
     <div className="app">
       <Hero />
-      <MetricsStrip />
       <main className="main">
         <HowItStarted />
         <div className="section-divider" aria-hidden="true" />
