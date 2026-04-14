@@ -1,5 +1,13 @@
 # Guitar Skill Acquisition Study
 
+Live Demo: https://rishav-guitar-research.vercel.app/
+
+![Performance Over Time](./docs/chart.png)
+*Figure: Learning progression across sessions showing early improvement followed by stabilization.*
+
+![Experiment Criteria](./docs/attempts.png)
+*Figure: Definition of a successful vs unsuccessful chord transition used for consistent labeling.*
+
 ## Overview
 
 This project implements a controlled experiment to measure how a beginner improves at a motor skill under time constraints.
