@@ -1013,6 +1013,11 @@ section {
   max-width: none;
 }
 
+.threshold-clarification {
+  margin-top: -8px;
+  margin-bottom: 4px;
+}
+
 .reflection__closing {
   margin-top: var(--space-lg);
   padding-top: var(--space-md);

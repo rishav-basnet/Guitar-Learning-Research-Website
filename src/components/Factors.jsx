@@ -72,6 +72,9 @@ export default function Factors() {
           />
         </div>
       </div>
+      <p className="chart-caption threshold-clarification">
+        Modes that never reached ≥75% accuracy are not shown.
+      </p>
       <div className="limitations-note" aria-label="Limitations">
         <p>
           <strong>Limitations:</strong> Single participant (n=1), short duration
