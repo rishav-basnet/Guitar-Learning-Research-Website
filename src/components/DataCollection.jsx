@@ -2,7 +2,11 @@ import Section from './Section'
 
 export default function DataCollection() {
   return (
-    <Section id="data-collection" className="data-section" title="How I recorded each session">
+    <Section
+      id="data-collection"
+      className="data-section session-section"
+      title="How I recorded each session"
+    >
       <p>
         To ensure consistency, every session followed a fixed and repeatable structure.
       </p>
@@ -28,7 +32,7 @@ export default function DataCollection() {
         speed, and difficulty <strong>reliable and measurable</strong>.
       </p>
 
-      <p className="chart-insight">
+      <p className="chart-insight session-caption">
         <span className="highlight">
           Each row represents one mode-speed condition, making session results easy to
           compare.
@@ -37,11 +41,10 @@ export default function DataCollection() {
       <div className="chart-card">
         <h3 className="chart-title">Example of raw session data (Session 3)</h3>
 
-        <div className="chart-container image-container">
+        <div className="session-image-container image-container">
           <img
             src="/figures/session_3_data_example.png"
             alt="Session 3 data table"
-            className="session-image"
           />
         </div>
       </div>

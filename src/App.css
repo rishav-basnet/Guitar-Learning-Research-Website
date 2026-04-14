@@ -1097,17 +1097,43 @@ section {
   margin-top: 80px;
 }
 
-.session-image {
-  max-width: 520px;
-  width: 100%;
-  margin: 24px auto;
-  border-radius: 10px;
-  display: block;
-}
-
 .image-container {
   display: flex;
   justify-content: center;
+}
+
+.session-section {
+  padding: 40px 0;
+}
+
+.session-image-container {
+  max-width: 700px;
+  margin: 20px auto 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(0, 255, 150, 0.15);
+  box-shadow: 0 0 20px rgba(0, 255, 150, 0.05);
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.session-image-container:hover {
+  transform: scale(1.01);
+}
+
+.session-image-container img {
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: cover;
+  object-position: top;
+  display: block;
+}
+
+.session-caption {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-bottom: 12px;
 }
 
 .card-grid {
