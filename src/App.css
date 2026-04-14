@@ -69,8 +69,10 @@ h2 span {
 
 p {
   margin-bottom: 24px;
-  line-height: 1.65;
-  color: rgba(245, 245, 245, 0.9);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--body-text);
 }
 
 /* ----- Card ----- */
@@ -669,8 +671,8 @@ section {
 
 .section-card p {
   margin-bottom: 20px;
-  line-height: 1.65;
-  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.7;
+  color: var(--body-text);
   max-width: 720px;
 }
 
@@ -680,9 +682,11 @@ section {
 
 .section-content p {
   margin: 0 0 24px;
-  line-height: 1.65;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
   max-width: 720px;
-  color: rgba(245, 245, 245, 0.9);
+  color: var(--body-text);
 }
 
 .section-content p:last-child {
@@ -1076,7 +1080,7 @@ section {
 .reflection p {
   margin-bottom: 20px;
   max-width: 680px;
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--body-text);
 }
 
 .reflection-divider {
@@ -1425,8 +1429,10 @@ h3 {
 
 p {
   margin-bottom: 24px;
+  font-size: 1rem;
+  font-weight: 400;
   line-height: 1.7;
-  color: rgba(245, 245, 245, 0.9);
+  color: var(--body-text);
 }
 
 .section-content p + p {
@@ -1441,7 +1447,7 @@ p {
 .clean-list {
   margin-top: 16px;
   padding-left: 18px;
-  color: rgba(255, 255, 255, 0.75);
+  color: var(--body-text);
 }
 
 .limitations-note {
