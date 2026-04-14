@@ -60,6 +60,10 @@ export default function HeroMiniChart() {
           filter="url(#heroChartGlow)"
         />
       </svg>
+      <div className="hero-chart-axis">
+        <span>Day 1</span>
+        <span>Day 7</span>
+      </div>
     </div>
   )
 }
