@@ -37,25 +37,27 @@ export default function Factors() {
         When switching time becomes too short, performance breaks down
         regardless of repetition.
       </p>
-      <div className="chart-container">
-        <img
-          className="chart-image"
-          src="/figures/clean_ratio_vs_bpm_by_mode.png"
-          alt="Chart of clean ratio versus BPM by mode"
-          loading="lazy"
-        />
-        <p className="chart-caption">Performance vs speed and difficulty</p>
+      <div className="chart-card">
+        <h3 className="chart-title">clean_ratio vs BPM by mode</h3>
+        <div className="chart-container">
+          <img
+            className="chart-image"
+            src="/figures/clean_ratio_vs_bpm_by_mode.png"
+            alt="Chart of clean ratio versus BPM by mode"
+            loading="lazy"
+          />
+        </div>
       </div>
-      <div className="chart-container">
-        <img
-          className="chart-image"
-          src="/figures/max_bpm_clean_ratio_ge_075.png"
-          alt="Threshold chart of maximum BPM meeting clean ratio at least 0.75 by session and mode"
-          loading="lazy"
-        />
-        <p className="chart-caption">
-          Max BPM meeting clean ratio ≥ 0.75 (gaps = no qualifying row)
-        </p>
+      <div className="chart-card">
+        <h3 className="chart-title">Maximum BPM meeting clean_ratio ≥ 0.75</h3>
+        <div className="chart-container">
+          <img
+            className="chart-image"
+            src="/figures/max_bpm_clean_ratio_ge_075.png"
+            alt="Threshold chart of maximum BPM meeting clean ratio at least 0.75 by session and mode"
+            loading="lazy"
+          />
+        </div>
       </div>
     </Section>
   )

@@ -953,18 +953,6 @@ section {
   background: rgba(0, 0, 0, 0.35);
 }
 
-.chart-card {
-  padding: 24px;
-  min-height: 300px;
-  transition: all 0.25s ease;
-}
-
-.chart-card:hover {
-  transform: translateY(-4px);
-  border-color: #6bffa7;
-  box-shadow: 0 0 0 1px rgba(107, 255, 167, 0.2);
-}
-
 .chart-placeholder {
   height: 260px;
   display: flex;
@@ -1168,28 +1156,43 @@ section {
 }
 
 .chart-container {
-  margin: 24px auto;
-  padding: 20px;
-  max-width: 800px;
   width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(0, 255, 170, 0.12);
+  background: rgba(255, 255, 255, 0.02);
+  overflow: hidden;
+}
+
+.chart-card {
+  margin: 32px auto;
+  padding: 28px;
   border-radius: 16px;
-  border: 1px dashed rgba(80, 255, 160, 0.2);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background: rgba(10, 20, 20, 0.7);
+  border: 1px solid rgba(0, 255, 170, 0.18);
+  max-width: 820px;
+  width: 100%;
   transition: all 0.25s ease;
 }
 
-.chart-container:hover {
-  transform: scale(1.01);
-  border-color: rgba(80, 255, 160, 0.35);
+.chart-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px rgba(0, 255, 170, 0.15);
+}
+
+.chart-title {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+  color: #6bffa7;
+  font-weight: 500;
 }
 
 .chart-container canvas,
 .chart-container img {
   width: 100% !important;
   height: auto !important;
-  object-fit: contain;
 }
 
 .method-content .section-content {

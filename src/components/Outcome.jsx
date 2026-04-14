@@ -37,14 +37,16 @@ export default function Outcome() {
         Overall, the data shows clear improvement — but also reflects how
         uneven and condition-dependent learning can be.
       </p>
-      <div className="chart-container">
-        <img
-          className="chart-image"
-          src="/figures/learning_progression_clean_ratio.png"
-          alt="Learning progression chart showing average clean ratio by session"
-          loading="lazy"
-        />
-        <p className="chart-caption">Performance trend across sessions</p>
+      <div className="chart-card">
+        <h3 className="chart-title">Learning progression over sessions</h3>
+        <div className="chart-container">
+          <img
+            className="chart-image"
+            src="/figures/learning_progression_clean_ratio.png"
+            alt="Learning progression chart showing average clean ratio by session"
+            loading="lazy"
+          />
+        </div>
       </div>
     </Section>
   )
