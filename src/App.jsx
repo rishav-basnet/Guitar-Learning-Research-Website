@@ -4,6 +4,7 @@ import MetricsStrip from './components/MetricsStrip'
 import HowItStarted from './components/HowItStarted'
 import TheProblem from './components/TheProblem'
 import HowITested from './components/HowITested'
+import DifficultyStructure from './components/DifficultyStructure'
 import Analysis from './components/Analysis'
 import Insights from './components/Insights'
 import Reflection from './components/Reflection'
@@ -17,6 +18,7 @@ function App() {
         <HowItStarted />
         <TheProblem />
         <HowITested />
+        <DifficultyStructure />
         <Analysis />
         <Insights />
         <Reflection />

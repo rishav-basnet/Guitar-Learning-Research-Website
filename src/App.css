@@ -443,6 +443,23 @@
   margin-bottom: 0;
 }
 
+.mode-card {
+  margin-top: 16px;
+  padding: 16px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(0, 255, 150, 0.15);
+}
+
+.mode-card p {
+  max-width: none;
+  margin-bottom: 12px;
+}
+
+.mode-card p:last-child {
+  margin-bottom: 0;
+}
+
 .section--reveal {
   opacity: 0;
   transform: translateY(12px);
