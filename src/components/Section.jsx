@@ -22,13 +22,15 @@ export default function Section({
       aria-labelledby={id ? `${id}-heading` : undefined}
     >
       <div className="page-container">
-        {label ? <p className="section-label">{label}</p> : null}
-        <h2 className="section-title" id={id ? `${id}-heading` : undefined}>
-          {title}
-        </h2>
-        {children != null && children !== false && (
-          <div className="section-content">{children}</div>
-        )}
+        <div className="card">
+          <div className="section-content">
+            {label ? <p className="section-label">{label}</p> : null}
+            <h2 className="section-title" id={id ? `${id}-heading` : undefined}>
+              {title}
+            </h2>
+            {children}
+          </div>
+        </div>
       </div>
     </section>
   )

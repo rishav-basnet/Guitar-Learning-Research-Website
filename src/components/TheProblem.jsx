@@ -18,8 +18,8 @@ export default function TheProblem() {
         but hard to quantify.
       </p>
       <p>
-        That meant I needed a way to turn a subjective feeling - "this sounded
-        better" - into something objective and consistent.
+        That meant I needed a way to turn a subjective feeling — “this sounded
+        better” — into something objective and consistent.
       </p>
       <p>
         So the question became:

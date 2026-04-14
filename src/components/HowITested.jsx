@@ -13,7 +13,7 @@ export default function HowITested() {
         I kept the setup as simple and consistent as possible.
       </p>
       <p>
-        I focused on just two chords - A and E - and followed the same short
+        I focused on just two chords — A and E — and followed the same short
         practice routine every day using a reference video.
       </p>
       <p>Each session used the exact same structure:</p>
@@ -24,7 +24,7 @@ export default function HowITested() {
       </ul>
       <p>
         Instead of changing what I practiced, I measured how accurately I could
-        execute each chord transition under the same conditions.
+        execute each transition under the same conditions.
       </p>
       <p>
         Each attempt was scored as either successful or not, and then converted
@@ -32,7 +32,7 @@ export default function HowITested() {
       </p>
       <p>
         By keeping everything constant, any change in performance would reflect
-        real improvement - not randomness.
+        real improvement — not randomness.
       </p>
       <p className="video-label">Reference practice routine</p>
       <div className="reference-video-wrapper video-container">
