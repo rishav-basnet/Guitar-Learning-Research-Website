@@ -1,8 +1,7 @@
 import './App.css'
-import Container from './components/Container'
 import Hero from './components/Hero'
 import MetricsStrip from './components/MetricsStrip'
-import Motivation from './components/Motivation'
+import HowItStarted from './components/HowItStarted'
 import ExperimentDesign from './components/ExperimentDesign'
 import Analysis from './components/Analysis'
 import Insights from './components/Insights'
@@ -14,13 +13,11 @@ function App() {
       <Hero />
       <MetricsStrip />
       <main className="main">
-        <Container>
-          <Motivation />
-          <ExperimentDesign />
-          <Analysis />
-          <Insights />
-          <Reflection />
-        </Container>
+        <HowItStarted />
+        <ExperimentDesign />
+        <Analysis />
+        <Insights />
+        <Reflection />
       </main>
     </div>
   )

@@ -14,17 +14,17 @@ export default function Section({
   return (
     <section
       ref={ref}
-      className={['section', className, revealClass].filter(Boolean).join(' ')}
+      className={['container', 'section', className, revealClass]
+        .filter(Boolean)
+        .join(' ')}
       id={id}
-      aria-labelledby={`${id}-heading`}
+      aria-labelledby={id ? `${id}-heading` : undefined}
     >
-      <header className="section__head">
-        <h2 className="section__title" id={`${id}-heading`}>
-          {title}
-        </h2>
-      </header>
+      <h2 className="section-title" id={id ? `${id}-heading` : undefined}>
+        {title}
+      </h2>
       {children != null && children !== false && (
-        <div className="section__body">{children}</div>
+        <div className="section-content">{children}</div>
       )}
     </section>
   )
