@@ -1075,10 +1075,11 @@ section {
 }
 
 .data-image {
+  display: block;
   width: 100%;
   max-width: 760px;
   border-radius: 12px;
-  margin-top: 12px;
+  margin-top: 0;
 }
 
 .card-grid {

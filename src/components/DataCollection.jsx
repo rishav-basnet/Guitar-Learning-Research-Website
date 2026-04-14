@@ -36,11 +36,13 @@ export default function DataCollection() {
           performance outcomes.
         </p>
 
-        <img
-          src="/figures/session_3_data_example.png"
-          alt="Session 3 data table"
-          className="data-image"
-        />
+        <div className="chart-container">
+          <img
+            src="/figures/session_3_data_example.png"
+            alt="Session 3 data table"
+            className="data-image"
+          />
+        </div>
       </div>
     </Section>
   )
