@@ -38,7 +38,7 @@ export default function Outcome() {
         uneven and condition-dependent learning can be.
       </p>
       <div className="chart-card">
-        <h3 className="chart-title">Learning progression over sessions</h3>
+        <h3 className="chart-title">How my performance improved over time</h3>
         <div className="chart-container">
           <img
             className="chart-image"

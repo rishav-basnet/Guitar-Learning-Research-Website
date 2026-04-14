@@ -38,7 +38,9 @@ export default function Factors() {
         regardless of repetition.
       </p>
       <div className="chart-card">
-        <h3 className="chart-title">clean_ratio vs BPM by mode</h3>
+        <h3 className="chart-title">
+          How speed affects accuracy at different difficulty levels
+        </h3>
         <div className="chart-container">
           <img
             className="chart-image"
@@ -49,7 +51,7 @@ export default function Factors() {
         </div>
       </div>
       <div className="chart-card">
-        <h3 className="chart-title">Maximum BPM meeting clean_ratio ≥ 0.75</h3>
+        <h3 className="chart-title">Highest speed I could maintain accuracy</h3>
         <div className="chart-container">
           <img
             className="chart-image"
