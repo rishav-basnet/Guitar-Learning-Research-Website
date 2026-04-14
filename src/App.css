@@ -1098,46 +1098,80 @@ section {
   margin-top: 80px;
 }
 
-.image-container {
-  display: flex;
-  justify-content: center;
-}
-
 .session-section {
   padding: 40px 0;
-}
-
-.session-image-container {
-  width: 100%;
-  max-width: 665px;
-  margin: 20px auto 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 12px;
-  border: 1px solid rgba(0, 255, 150, 0.15);
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.26);
-  cursor: zoom-in;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.session-image-container:hover {
-  transform: scale(1.02);
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.32);
-}
-
-.session-image-container img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  display: block;
-  border-radius: 12px;
 }
 
 .session-caption {
   font-size: 0.9rem;
   opacity: 0.7;
   margin-bottom: 12px;
+}
+
+.session-table-wrap {
+  width: 100%;
+  margin-top: 12px;
+  border-radius: 16px;
+  background: #0b0f0d;
+  border: 1px solid rgba(0, 255, 150, 0.15);
+  overflow-x: auto;
+}
+
+.session-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 560px;
+}
+
+.session-table th,
+.session-table td {
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.session-table th {
+  font-weight: 600;
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.session-table td {
+  color: rgba(245, 245, 245, 0.92);
+  transition: background-color 0.2s ease;
+}
+
+.session-table tbody tr:hover td {
+  background: rgba(0, 255, 150, 0.05);
+}
+
+.session-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.accuracy-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 64px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+.accuracy-pill--high {
+  background: rgba(0, 255, 150, 0.25);
+}
+
+.accuracy-pill--mid {
+  background: rgba(255, 200, 0, 0.25);
+}
+
+.accuracy-pill--low {
+  background: rgba(255, 80, 80, 0.25);
 }
 
 .card-grid {

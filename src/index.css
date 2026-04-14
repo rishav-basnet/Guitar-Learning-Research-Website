@@ -78,9 +78,9 @@
     BlinkMacSystemFont,
     'Segoe UI',
     sans-serif;
-  font-size: 17px;
+  font-size: 22.1px;
   line-height: 1.7;
-  letter-spacing: 0.014em;
+  letter-spacing: 0.028em;
   color: var(--text);
   background-color: var(--bg-base);
   font-optical-sizing: auto;

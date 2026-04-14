@@ -1,4 +1,5 @@
 import Section from './Section'
+import SessionTable from './SessionTable'
 
 export default function DataCollection() {
   return (
@@ -40,13 +41,7 @@ export default function DataCollection() {
       </p>
       <div className="chart-card">
         <h3 className="chart-title">Example of raw session data (Session 3)</h3>
-
-        <div className="session-image-container image-container">
-          <img
-            src="/figures/session_3_data_example.png"
-            alt="Session 3 data table"
-          />
-        </div>
+        <SessionTable />
       </div>
     </Section>
   )
