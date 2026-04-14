@@ -58,7 +58,7 @@ export default function Factors() {
         </div>
       </div>
       <p className="chart-insight">
-        Consistency appears only after repeated sessions and varies by mode.
+        Highest BPM where accuracy remained at least 75%.
       </p>
       <div className="chart-card">
         <h3 className="chart-title">Highest speed I could maintain accuracy</h3>
