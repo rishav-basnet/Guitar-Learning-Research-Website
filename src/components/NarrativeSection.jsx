@@ -26,7 +26,7 @@ export default function NarrativeSection({
           <p className="section-label">{label}</p>
           <h2 className="section-title" id={`${id}-heading`}>
             {titleBefore}
-            <span>{titleAccent}</span>
+            {titleAccent ? <span>{titleAccent}</span> : null}
             {titleAfter}
           </h2>
           <div className="section-content">{children}</div>
