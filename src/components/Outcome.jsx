@@ -11,35 +11,37 @@ export default function Outcome() {
         </>
       }
     >
-      <p>
-        Over the week, performance improved overall — but not in a
-        <strong> straight line</strong>.
-      </p>
-      <p>
-        In the first few sessions, results were inconsistent.
-      </p>
-      <p>
-        Mistakes were common, especially at <span className="highlight">higher speeds</span> and
-        in harder modes.
-      </p>
-      <p>
-        By the middle of the week, easier conditions became more reliable.
-      </p>
-      <p>
-        Lower BPM levels and simpler modes started to show consistently higher
-        success rates.
-      </p>
-      <ul className="clean-list">
-        <li>Harder conditions remained challenging throughout the week.</li>
-        <li>Progress included dips and plateaus, not just steady growth.</li>
-        <li>Improvement depended on speed and difficulty level.</li>
-      </ul>
-      <p className="chart-insight">
-        <span className="highlight">
-          Over these 7 sessions, performance improves early, then slows down in
-          later sessions.
-        </span>
-      </p>
+      <div className="text-container">
+        <p>
+          Over the week, performance improved overall — but not in a
+          <strong> straight line</strong>.
+        </p>
+        <p>
+          In the first few sessions, results were inconsistent.
+        </p>
+        <p>
+          Mistakes were common, especially at <span className="highlight">higher speeds</span>{' '}
+          and in harder modes.
+        </p>
+        <p>
+          By the middle of the week, easier conditions became more reliable.
+        </p>
+        <p>
+          Lower BPM levels and simpler modes started to show consistently higher
+          success rates.
+        </p>
+        <ul className="clean-list">
+          <li>Harder conditions remained challenging throughout the week.</li>
+          <li>Progress included dips and plateaus, not just steady growth.</li>
+          <li>Improvement depended on speed and difficulty level.</li>
+        </ul>
+        <p className="chart-insight">
+          <span className="highlight">
+            Over these 7 sessions, performance improves early, then slows down in
+            later sessions.
+          </span>
+        </p>
+      </div>
       <div className="chart-card chart-card--primary">
         <h3 className="chart-title">How my performance improved over time</h3>
         <div className="chart-container">

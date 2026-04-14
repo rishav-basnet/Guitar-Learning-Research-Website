@@ -68,7 +68,7 @@ h2 span {
 }
 
 p {
-  margin-bottom: 24px;
+  margin-bottom: 1.2em;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.7;
@@ -680,8 +680,15 @@ section {
   line-height: 1.7;
 }
 
+.text-container {
+  max-width: 65ch;
+  width: 100%;
+  margin-left: 0;
+  letter-spacing: 0.01em;
+}
+
 .section-content p {
-  margin: 0 0 24px;
+  margin: 0 0 1.2em;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.7;
@@ -1428,7 +1435,7 @@ h3 {
 }
 
 p {
-  margin-bottom: 24px;
+  margin-bottom: 1.2em;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.7;
@@ -1472,5 +1479,9 @@ p {
   .insights-grid,
   .attempt-grid {
     grid-template-columns: 1fr;
+  }
+
+  .text-container {
+    padding: 0 1rem;
   }
 }

@@ -8,22 +8,24 @@ export default function SuccessCriteria() {
       titleBefore="What counts as a successful "
       titleAccent="attempt?"
     >
-      <p>
-        Each attempt followed a fixed rhythm where I had to switch from one
-        chord to another on time.
-      </p>
-      <p>
-        An attempt was counted as successful only if:
-      </p>
-      <ul className="prose-list">
-        <li>the chord sounded clean (no muted or buzzing strings)</li>
-        <li>the transition happened on beat</li>
-      </ul>
-      <p>This gave me a simple and consistent way to measure performance.</p>
-      <p>
-        Instead of relying on how it felt, every attempt was judged using the
-        same criteria.
-      </p>
+      <div className="text-container">
+        <p>
+          Each attempt followed a fixed rhythm where I had to switch from one
+          chord to another on time.
+        </p>
+        <p>
+          An attempt was counted as successful only if:
+        </p>
+        <ul className="prose-list">
+          <li>the chord sounded clean (no muted or buzzing strings)</li>
+          <li>the transition happened on beat</li>
+        </ul>
+        <p>This gave me a simple and consistent way to measure performance.</p>
+        <p>
+          Instead of relying on how it felt, every attempt was judged using the
+          same criteria.
+        </p>
+      </div>
       <div className="video-grid attempt-grid">
         <div className="video-card success-card attempt-card">
           <h3>✓ Successful attempt</h3>

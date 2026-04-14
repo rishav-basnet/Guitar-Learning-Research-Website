@@ -11,40 +11,42 @@ export default function Factors() {
         </>
       }
     >
-      <p>
-        <strong>Increasing speed made chord transitions harder</strong>, but
-        the effect depended on how much time was available to switch.
-      </p>
-      <p>
-        At easier levels (Mode 1), performance stayed relatively high even at
-        faster speeds. This suggests that when there is enough time to move
-        between chords, <span className="highlight">speed alone</span> is not a
-        major problem.
-      </p>
-      <ul className="clean-list">
-        <li>
-          At moderate difficulty (Mode 2), <strong>accuracy started to drop</strong>{' '}
-          as speed increased.
-        </li>
-        <li>
-          At higher difficulty levels (Modes 3 and 4), performance dropped
-          <span className="highlight"> sharply</span>.
-        </li>
-        <li>
-          This shows <strong>speed does not act alone</strong> — it amplifies
-          <span className="highlight"> difficulty</span>.
-        </li>
-        <li>
-          When switching time becomes too short, performance breaks down
-          regardless of repetition.
-        </li>
-      </ul>
-      <p className="chart-insight">
-        <span className="highlight">
-          In this dataset, accuracy generally decreases at higher speeds,
-          especially in more difficult modes.
-        </span>
-      </p>
+      <div className="text-container">
+        <p>
+          <strong>Increasing speed made chord transitions harder</strong>, but
+          the effect depended on how much time was available to switch.
+        </p>
+        <p>
+          At easier levels (Mode 1), performance stayed relatively high even at
+          faster speeds. This suggests that when there is enough time to move
+          between chords, <span className="highlight">speed alone</span> is not a
+          major problem.
+        </p>
+        <ul className="clean-list">
+          <li>
+            At moderate difficulty (Mode 2), <strong>accuracy started to drop</strong>{' '}
+            as speed increased.
+          </li>
+          <li>
+            At higher difficulty levels (Modes 3 and 4), performance dropped
+            <span className="highlight"> sharply</span>.
+          </li>
+          <li>
+            This shows <strong>speed does not act alone</strong> — it amplifies
+            <span className="highlight"> difficulty</span>.
+          </li>
+          <li>
+            When switching time becomes too short, performance breaks down
+            regardless of repetition.
+          </li>
+        </ul>
+        <p className="chart-insight">
+          <span className="highlight">
+            In this dataset, accuracy generally decreases at higher speeds,
+            especially in more difficult modes.
+          </span>
+        </p>
+      </div>
       <div className="chart-card">
         <h3 className="chart-title">
           How speed affects accuracy at different difficulty levels
@@ -58,9 +60,11 @@ export default function Factors() {
           />
         </div>
       </div>
-      <p className="chart-insight">
-        Highest BPM where accuracy remained at least 75%.
-      </p>
+      <div className="text-container">
+        <p className="chart-insight">
+          Highest BPM where accuracy remained at least 75%.
+        </p>
+      </div>
       <div className="chart-card">
         <h3 className="chart-title">Highest speed I could maintain accuracy</h3>
         <div className="chart-container">
@@ -72,9 +76,11 @@ export default function Factors() {
           />
         </div>
       </div>
-      <p className="chart-caption threshold-clarification">
-        Modes that never reached ≥75% accuracy are not shown.
-      </p>
+      <div className="text-container">
+        <p className="chart-caption threshold-clarification">
+          Modes that never reached ≥75% accuracy are not shown.
+        </p>
+      </div>
       <div className="limitations-note" aria-label="Limitations">
         <p>
           <strong>Limitations:</strong> Single participant (n=1), short duration
