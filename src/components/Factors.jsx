@@ -47,6 +47,12 @@ export default function Factors() {
           </span>
         </p>
       </div>
+      <div className="text-container">
+        <p>
+          This chart shows that accuracy decreases as speed increases, with the
+          effect becoming significantly stronger at higher difficulty levels.
+        </p>
+      </div>
       <div className="chart-card">
         <h3 className="chart-title">
           How speed affects accuracy at different difficulty levels
@@ -63,6 +69,12 @@ export default function Factors() {
       <div className="text-container">
         <p className="chart-insight">
           Highest BPM where accuracy remained at least 75%.
+        </p>
+      </div>
+      <div className="text-container">
+        <p>
+          This chart shows how the maximum maintainable speed increases over
+          time, but gains become smaller in later sessions.
         </p>
       </div>
       <div className="chart-card">

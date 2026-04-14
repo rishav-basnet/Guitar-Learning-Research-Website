@@ -10,6 +10,7 @@ import Factors from './components/Factors'
 import DataCollection from './components/DataCollection'
 import WhatILearned from './components/WhatILearned'
 import Reflection from './components/Reflection'
+import LimitationsImprovements from './components/LimitationsImprovements'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Factors />
         <WhatILearned />
         <Reflection />
+        <LimitationsImprovements />
       </main>
     </div>
   )

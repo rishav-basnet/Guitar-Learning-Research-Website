@@ -19,10 +19,7 @@ export default function Reflection() {
           <span className="highlight"> improvement varies by difficulty</span> and
           how performance drops under time pressure.
         </p>
-        <p>
-          <strong>Recording each session</strong> gave structure to my practice and made it more
-          <strong>intentional day to day</strong>.
-        </p>
+        <p>Recording each session added structure and made practice intentional.</p>
         <hr className="reflection-divider" />
         <p className="reflection__closing">
           Even though this was a small experiment, it changed how I think about

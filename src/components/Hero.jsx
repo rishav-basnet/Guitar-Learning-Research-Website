@@ -10,8 +10,12 @@ export default function Hero() {
           <div className="hero__main">
             <h1 className="hero__title">Guitar Skill Acquisition Study</h1>
             <p className="hero__subtitle">
-              I designed an experiment protocol and measured how much I
-              progressed as a complete beginner over 7 days.
+              I designed a controlled experiment to measure how a beginner
+              improves at guitar over time.
+              <br />
+              <br />
+              Instead of relying on 'feeling better', I tracked accuracy across
+              speed and difficulty to make progress measurable.
             </p>
             <p className="hero__metric">
               The same short routine ran every day so the results stay easy to

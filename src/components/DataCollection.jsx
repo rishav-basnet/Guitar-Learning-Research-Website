@@ -38,11 +38,9 @@ export default function DataCollection() {
           <strong>reliable and measurable</strong>.
         </p>
 
-        <p className="chart-insight session-caption">
-          <span className="highlight">
-            Each row represents one mode-speed condition, making session results
-            easy to compare.
-          </span>
+        <p>
+          Each row shows performance under a fixed condition (mode + BPM),
+          allowing direct comparison across sessions.
         </p>
       </div>
       <div className="chart-card">

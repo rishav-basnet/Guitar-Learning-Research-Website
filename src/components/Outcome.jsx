@@ -42,6 +42,12 @@ export default function Outcome() {
           </span>
         </p>
       </div>
+      <div className="text-container">
+        <p>
+          This chart shows rapid improvement between Sessions 2–4, followed by a
+          plateau, indicating early learning followed by stabilization.
+        </p>
+      </div>
       <div className="chart-card chart-card--primary">
         <h3 className="chart-title">How my performance improved over time</h3>
         <div className="chart-container">
