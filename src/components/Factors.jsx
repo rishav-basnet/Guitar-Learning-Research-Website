@@ -41,7 +41,8 @@ export default function Factors() {
       </ul>
       <p className="chart-insight">
         <span className="highlight">
-          Higher speed reduces accuracy more at higher difficulty levels.
+          In this dataset, accuracy generally decreases at higher speeds,
+          especially in more difficult modes.
         </span>
       </p>
       <div className="chart-card">
@@ -70,6 +71,13 @@ export default function Factors() {
             loading="lazy"
           />
         </div>
+      </div>
+      <div className="limitations-note" aria-label="Limitations">
+        <p>
+          <strong>Limitations:</strong> Single participant (n=1), short duration
+          (7 sessions), and results show patterns rather than universal
+          conclusions.
+        </p>
       </div>
     </Section>
   )

@@ -36,7 +36,8 @@ export default function Outcome() {
       </ul>
       <p className="chart-insight">
         <span className="highlight">
-          Performance improves early, then slows down in later sessions.
+          Over these 7 sessions, performance improves early, then slows down in
+          later sessions.
         </span>
       </p>
       <div className="chart-card chart-card--primary">
