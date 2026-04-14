@@ -5,6 +5,7 @@ export default function NarrativeSection({
   label,
   titleBefore,
   titleAccent,
+  titleAfter = '',
   children,
   reveal = true,
 }) {
@@ -25,6 +26,7 @@ export default function NarrativeSection({
           <h2 className="section-title" id={`${id}-heading`}>
             {titleBefore}
             <span>{titleAccent}</span>
+            {titleAfter}
           </h2>
           <div className="section-content">{children}</div>
         </div>
