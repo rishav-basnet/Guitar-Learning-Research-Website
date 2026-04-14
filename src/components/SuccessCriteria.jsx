@@ -16,16 +16,18 @@ export default function SuccessCriteria() {
       <div className="video-grid">
         <div className="video-card success-card">
           <h4>✓ Successful attempt</h4>
-          <div className="video-placeholder">
-            <span>Click to play</span>
-          </div>
+          <video className="video-placeholder" controls preload="metadata">
+            <source src="/videos/successTrial.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
           <p>Clean, on-beat chord transition</p>
         </div>
         <div className="video-card fail-card">
           <h4>✗ Unsuccessful attempt</h4>
-          <div className="video-placeholder">
-            <span>Click to play</span>
-          </div>
+          <video className="video-placeholder" controls preload="metadata">
+            <source src="/videos/failTrial.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
           <p>Muted or delayed chord transition</p>
         </div>
       </div>
