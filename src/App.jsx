@@ -7,6 +7,7 @@ import DifficultyStructure from './components/DifficultyStructure'
 import SuccessCriteria from './components/SuccessCriteria'
 import Outcome from './components/Outcome'
 import Factors from './components/Factors'
+import DataCollection from './components/DataCollection'
 import WhatILearned from './components/WhatILearned'
 import Reflection from './components/Reflection'
 
@@ -26,6 +27,7 @@ function App() {
         <SuccessCriteria />
         <Outcome />
         <Factors />
+        <DataCollection />
         <WhatILearned />
         <Reflection />
       </main>

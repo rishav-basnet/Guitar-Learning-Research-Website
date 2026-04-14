@@ -1070,6 +1070,17 @@ section {
   margin-top: 60px;
 }
 
+.data-section {
+  margin-top: 80px;
+}
+
+.data-image {
+  width: 100%;
+  max-width: 760px;
+  border-radius: 12px;
+  margin-top: 12px;
+}
+
 .card-grid {
   row-gap: 20px;
 }
