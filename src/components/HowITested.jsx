@@ -5,6 +5,7 @@ export default function HowITested() {
     <NarrativeSection
       id="how-i-tested"
       label="METHOD"
+      className="method-content"
       titleBefore="How I "
       titleAccent="tested it"
     >
@@ -19,7 +20,7 @@ export default function HowITested() {
       </p>
       <p className="video-label">Reference practice routine</p>
       <div className="reference-video-wrapper">
-        <div className="reference-video-card">
+        <div className="reference-video-card method-video">
           <iframe
             src="https://www.youtube.com/embed/WtXb90taPOY"
             title="Practice routine reference"

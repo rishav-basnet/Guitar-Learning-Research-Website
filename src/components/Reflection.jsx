@@ -3,7 +3,7 @@ import Section from './Section'
 
 export default function Reflection() {
   return (
-    <Section id="reflection" title="Reflection" className="reflection">
+    <Section id="reflection" title="Reflection" className="reflection card-section">
       <Card interactive>
         <p>
           At the beginning, practice felt inconsistent and hard to judge. Some
