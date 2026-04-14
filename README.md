@@ -26,3 +26,18 @@ The repo is connected to Vercel via GitHub. **Pushes to `main` trigger a new pro
 - **Output directory:** `dist`
 
 No backend or env vars are required for this static app. Vercel’s Vite preset picks the above up automatically; the repo keeps `build.outDir` set to `dist` in `vite.config.js` so local and CI builds stay aligned.
+
+## Data Source
+
+This website consumes precomputed CSVs from `public/outputs/`:
+
+- `session_summary.csv`
+- `bpm_mode_accuracy.csv`
+- `threshold_summary.csv`
+- `highest_bpm_threshold.csv`
+
+These files are generated in the research repository by:
+
+`python analysis/main_analysis.py`
+
+The site should not recompute analysis logic in frontend code.
