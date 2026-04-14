@@ -9,16 +9,22 @@ export default function HowItStarted() {
       titleAccent="started"
     >
       <p>
-        I was learning guitar and wanted to know whether progress was actually
-        happening, and how fast it showed up.
+        After months of owning a guitar, I finally started practicing as a
+        complete beginner using a simple follow-along YouTube video.
       </p>
       <p>
-        Day-to-day practice felt inconsistent, so I wanted a fixed structure to
-        measure performance instead of relying on intuition.
+        Within a few days, I realized I could not tell if I was improving or
+        just repeating the same mistakes. Some sessions felt better, but I had
+        no way to confirm if that actually meant progress.
       </p>
       <p>
-        Turning practice into a small experiment made improvement something I
-        could observe, not just assume.
+        Without feedback or an instructor, it is easy to reinforce small
+        mistakes - like slightly muted strings or late chord switches - without
+        noticing.
+      </p>
+      <p>
+        So instead of guessing, I decided to treat my practice like a small
+        experiment and measure what was actually happening over time.
       </p>
     </NarrativeSection>
   )

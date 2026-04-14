@@ -9,16 +9,23 @@ export default function TheProblem() {
       titleAccent="problem"
     >
       <p>
-        Without a clear measure, it is hard to tell whether a practice session
-        went well or whether you are actually improving week to week.
+        But then I ran into a bigger question: how do you even measure progress
+        in something like this?
       </p>
       <p>
-        I wanted something repeatable so I could compare sessions directly
-        instead of guessing from memory.
+        Unlike workouts, where you can track reps or weight, improvement in
+        guitar is subtle. Cleaner transitions and better timing are noticeable,
+        but hard to quantify.
       </p>
       <p>
-        The goal was a simple way to track progress that stayed consistent even
-        when how I felt on a given day did not.
+        That meant I needed a way to turn a subjective feeling - "this sounded
+        better" - into something objective and consistent.
+      </p>
+      <p>
+        So the question became:
+        <br />
+        How can you measure improvement in a skill where progress is usually
+        felt, not recorded?
       </p>
     </NarrativeSection>
   )

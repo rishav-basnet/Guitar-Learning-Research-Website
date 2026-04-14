@@ -15,21 +15,21 @@ export default function WhatILearned() {
       <div className="card">
         <div className="insights-grid">
           <InsightCard>
-            Performance improves clearly when practice is consistent.
+            Improvement appears first in easier conditions before transferring to
+            harder ones.
           </InsightCard>
           <InsightCard>
-            Learning is not linear — it includes dips, plateaus, and sudden
-            improvements.
+            Progress is not linear - dips and plateaus are normal.
           </InsightCard>
           <InsightCard>
-            Higher speeds reduce accuracy quickly, especially under pressure.
+            Speed alone is not the problem - limited switching time is.
           </InsightCard>
           <InsightCard>
-            Harder levels expose timing weaknesses, and some session/mode pairs
-            never meet the 0.75 clean threshold.
+            Higher difficulty reveals coordination issues not visible at lower
+            levels.
           </InsightCard>
           <InsightCard className="full">
-            Measuring performance makes progress easier to understand and trust.
+            Measuring performance makes progress visible and trustworthy.
           </InsightCard>
         </div>
       </div>

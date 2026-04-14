@@ -7,23 +7,36 @@ export default function Factors() {
       className="card-section"
       title={
         <>
-          What made it <span className="highlight">harder or easier</span>?
+          How speed and difficulty <span className="highlight">affected performance</span>
         </>
       }
     >
       <div className="card">
         <p>
-          Increasing speed made clean transitions harder, and the drop was
-          steeper in harder modes where switching time was shorter.
+          Increasing speed made chord transitions harder, but the effect
+          depended on how much time was available to switch.
         </p>
         <p>
-          At slower BPM values, control stayed higher and more consistent. As
-          time pressure increased, accuracy became less stable.
+          At easier levels (Mode 1), performance stayed relatively high even at
+          faster speeds. This suggests that when there is enough time to move
+          between chords, speed alone is not a major problem.
         </p>
         <p>
-          In the threshold view, easier modes keep passing 0.75 at higher BPM,
-          while harder modes show visible gaps where no session reaches that
-          threshold.
+          At moderate difficulty (Mode 2), accuracy started to drop as speed
+          increased.
+        </p>
+        <p>
+          At higher difficulty levels (Modes 3 and 4), performance dropped
+          sharply. Even with practice, accuracy stayed low because there simply
+          was not enough time to switch cleanly.
+        </p>
+        <p>
+          This shows that speed does not act on its own - it amplifies
+          difficulty.
+        </p>
+        <p>
+          When switching time becomes too short, performance breaks down
+          regardless of repetition.
         </p>
         <div className="chart-card">
           <img

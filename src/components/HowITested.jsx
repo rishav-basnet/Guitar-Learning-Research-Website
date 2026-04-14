@@ -10,13 +10,29 @@ export default function HowITested() {
       titleAccent="tested it"
     >
       <p>
-        I followed the same short routine every session so the results stay easy
-        to compare across days.
+        I kept the setup as simple and consistent as possible.
       </p>
       <p>
-        Each session used a fixed grid of practice modes and BPM levels, with
-        four trials per cell. Each trial was scored as a success or not based on
-        clean, on-time chord changes within the mode window.
+        I focused on just two chords - A and E - and followed the same short
+        practice routine every day using a reference video.
+      </p>
+      <p>Each session used the exact same structure:</p>
+      <ul className="prose-list">
+        <li>BPM levels: 60 -&gt; 110</li>
+        <li>4 difficulty modes</li>
+        <li>4 attempts per condition</li>
+      </ul>
+      <p>
+        Instead of changing what I practiced, I measured how accurately I could
+        execute each chord transition under the same conditions.
+      </p>
+      <p>
+        Each attempt was scored as either successful or not, and then converted
+        into a success rate.
+      </p>
+      <p>
+        By keeping everything constant, any change in performance would reflect
+        real improvement - not randomness.
       </p>
       <p className="video-label">Reference practice routine</p>
       <div className="reference-video-wrapper">

@@ -7,27 +7,28 @@ export default function Reflection() {
       <Card interactive>
         <p>
           At the beginning, practice felt inconsistent and hard to judge. Some
-          days felt better, others worse, but I had no clear way to measure it.
+          sessions felt better than others, but I had no clear way to measure
+          it.
         </p>
         <p>
-          Seeing the progress visually — especially as it gradually improved over
-          time — made a big difference. It turned a vague feeling into something
-          concrete and measurable.
+          Tracking performance changed that. Seeing the data across sessions -
+          including both improvements and setbacks - made progress concrete
+          instead of just a feeling.
         </p>
         <p>
-          Recording each session also turned out to be surprisingly enjoyable. It
-          gave structure to my practice and made the process feel more
+          It also revealed patterns I would not have noticed otherwise, like how
+          improvement varies across difficulty levels and how performance drops
+          under time pressure.
+        </p>
+        <p>
+          Recording each session gave structure to my practice and made it more
           intentional.
-        </p>
-        <p>
-          Even though this was a small experiment, it changed how I think about
-          learning — not just in guitar, but in any skill where progress is hard
-          to notice day-to-day.
         </p>
         <div className="reflection-divider" aria-hidden="true" />
         <p className="reflection__closing">
-          This experiment showed me that progress becomes much clearer when it
-          is measured, not just felt.
+          Even though this was a small experiment, it changed how I think about
+          learning. Progress is not always obvious day-to-day, but when it is
+          measured over time, it becomes much clearer and easier to trust.
         </p>
       </Card>
     </Section>

@@ -5,16 +5,24 @@ export default function SuccessCriteria() {
     <NarrativeSection
       id="success-criteria"
       className="criteria-section attempt-section"
-      titleBefore="What makes a chord transition attempt successful?"
-      titleAccent=""
+      titleBefore="What counts as a successful "
+      titleAccent="attempt?"
     >
       <p>
-        A trial is successful when the chord transition is clean and happens on
-        time within the rhythm.
+        Each attempt followed a fixed rhythm where I had to switch from one
+        chord to another on time.
       </p>
       <p>
-        To reduce subjectivity, I judged each attempt strictly based on audible
-        clarity and timing, keeping the criteria consistent across all sessions.
+        An attempt was counted as successful only if:
+      </p>
+      <ul className="prose-list">
+        <li>the chord sounded clean (no muted or buzzing strings)</li>
+        <li>the transition happened on beat</li>
+      </ul>
+      <p>This gave me a simple and consistent way to measure performance.</p>
+      <p>
+        Instead of relying on how it felt, every attempt was judged using the
+        same criteria.
       </p>
       <div className="video-grid attempt-cards">
         <div className="video-card success-card attempt-card">

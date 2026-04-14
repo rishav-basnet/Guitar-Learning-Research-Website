@@ -13,17 +13,30 @@ export default function Outcome() {
     >
       <div className="card">
         <p>
-          Over the week, my average clean performance rose from about 0.26 in the
-          first session to around 0.57 by the final session.
+          Over the week, performance improved overall - but not in a straight
+          line.
         </p>
         <p>
-          Early sessions were inconsistent, but cleaner transitions became more
-          common as the routine stayed the same day to day. The curve still has
-          small dips, so progress is visible but not perfectly smooth.
+          In the first few sessions, results were inconsistent. Mistakes were
+          common, especially at higher speeds and in harder modes.
         </p>
         <p>
-          To make this visible beyond just feeling it, I used the session trend
-          chart from the updated analysis:
+          By the middle of the week, easier conditions became more reliable.
+          Lower BPM levels and simpler modes started to show consistently higher
+          success rates.
+        </p>
+        <p>
+          However, harder conditions remained challenging throughout. Even in
+          later sessions, performance did not improve equally across all
+          difficulty levels.
+        </p>
+        <p>
+          There were also small dips and plateaus, showing that progress was not
+          perfectly smooth.
+        </p>
+        <p>
+          Overall, the data shows clear improvement - but also reflects how
+          uneven and condition-dependent learning can be.
         </p>
         <div className="chart-card">
           <img
