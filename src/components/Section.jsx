@@ -3,6 +3,7 @@ import { useInView } from '../hooks/useInView'
 export default function Section({
   id,
   title,
+  label,
   children,
   className = '',
   reveal = true,
@@ -20,6 +21,7 @@ export default function Section({
       id={id}
       aria-labelledby={id ? `${id}-heading` : undefined}
     >
+      {label ? <p className="section-label">{label}</p> : null}
       <h2 className="section-title" id={id ? `${id}-heading` : undefined}>
         {title}
       </h2>

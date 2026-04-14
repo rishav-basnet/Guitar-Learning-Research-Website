@@ -6,20 +6,17 @@ export default function Insights() {
     <Section id="insights" title="Key insights" className="section--insights">
       <div className="insights-grid">
         <InsightCard>
-          Performance shows an overall upward trend across sessions.
+          Performance shows a clear upward trend across sessions.
         </InsightCard>
         <InsightCard>
-          Learning is not linear, with plateaus and short regressions.
+          Learning is not linear — there are dips, plateaus, and sudden
+          improvements.
         </InsightCard>
         <InsightCard>
-          Higher BPM generally reduces performance, especially in harder modes.
+          Higher speeds make accuracy drop quickly, especially at harder levels.
         </InsightCard>
         <InsightCard>
-          Modes 3–4 consistently perform worse than modes 1–2.
-        </InsightCard>
-        <InsightCard>
-          Performance varies noticeably across sessions, even under the same
-          conditions.
+          Harder difficulty levels expose timing and coordination weaknesses.
         </InsightCard>
       </div>
     </Section>

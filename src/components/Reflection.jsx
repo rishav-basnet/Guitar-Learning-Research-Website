@@ -6,17 +6,22 @@ export default function Reflection() {
     <Section id="reflection" title="Reflection">
       <Card interactive>
         <p>
-          Practice felt inconsistent, and the data confirmed that. Progress was
-          visible overall, but individual sessions often moved in unexpected
-          directions.
+          At the start, practice felt inconsistent and hard to judge. Some days
+          felt better, others worse, but I had no clear way to measure it.
         </p>
         <p>
-          Recording performance made it easier to see patterns that would
-          otherwise be missed or misremembered.
+          Seeing the graph gradually rise over time changed that. It made
+          progress visible in a way that intuition alone could not.
         </p>
-        <p className="reflection__note">
-          This is a small, single-learner study. It is intended to explore
-          patterns in practice rather than make general conclusions.
+        <p>
+          Recording each session also turned out to be surprisingly enjoyable.
+          It gave structure to my practice and made the process feel more
+          intentional.
+        </p>
+        <p>
+          Even though this was a small experiment, it changed how I think about
+          learning — not just in guitar, but in any skill where progress is hard
+          to see.
         </p>
       </Card>
     </Section>
