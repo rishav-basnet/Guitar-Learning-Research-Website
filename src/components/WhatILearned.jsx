@@ -25,8 +25,8 @@ export default function WhatILearned() {
             Higher speeds reduce accuracy quickly, especially under pressure.
           </InsightCard>
           <InsightCard>
-            Difficulty helps reveal weaknesses that are not visible at easier
-            levels.
+            Harder levels expose timing weaknesses, and some session/mode pairs
+            never meet the 0.75 clean threshold.
           </InsightCard>
           <InsightCard className="full">
             Measuring performance makes progress easier to understand and trust.

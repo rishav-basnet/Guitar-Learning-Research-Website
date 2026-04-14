@@ -23,8 +23,35 @@ export default function Hero() {
               </Button>
             </div>
             <p className="hero__caption subtle-text">
-              Protocol notes, saved data, and analysis code are in the GitHub
-              repository.
+              Full study details:
+              {' '}
+              <a
+                className="text-link"
+                href="https://github.com/rishav-basnet/Guitar-Learning-Research"
+                target="_blank"
+                rel="noreferrer"
+              >
+                repository
+              </a>
+              ,{' '}
+              <a
+                className="text-link"
+                href="https://github.com/rishav-basnet/Guitar-Learning-Research/blob/main/README.md"
+                target="_blank"
+                rel="noreferrer"
+              >
+                README
+              </a>
+              , and{' '}
+              <a
+                className="text-link"
+                href="https://github.com/rishav-basnet/Guitar-Learning-Research/blob/main/data/main-data.csv"
+                target="_blank"
+                rel="noreferrer"
+              >
+                dataset
+              </a>
+              .
             </p>
           </div>
           <div

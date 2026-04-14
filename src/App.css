@@ -973,6 +973,13 @@ section {
   color: rgba(255, 255, 255, 0.4);
 }
 
+.chart-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 12px;
+}
+
 .section-content .chart-caption {
   margin: 10px 0 0;
   font-size: 0.85rem;
