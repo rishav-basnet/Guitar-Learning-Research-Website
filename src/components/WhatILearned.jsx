@@ -10,9 +10,9 @@ export default function WhatILearned() {
           What I <span className="highlight">learned</span>
         </>
       }
-      className="section--insights card-section"
+      className="section--insights card-section what-i-learned"
     >
-      <div className="insights-grid">
+      <div className="insights-grid card-grid">
         <InsightCard>
           Improvement appeared first at lower speeds before transferring to
           higher BPM levels.

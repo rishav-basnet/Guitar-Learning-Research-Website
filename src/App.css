@@ -660,7 +660,7 @@ section {
 }
 
 .section-content p {
-  margin: 0 0 20px;
+  margin: 0 0 24px;
   line-height: 1.65;
   max-width: 720px;
   color: rgba(255, 255, 255, 0.75);
@@ -1066,6 +1066,22 @@ section {
   margin-top: 32px;
 }
 
+.what-i-learned {
+  margin-top: 60px;
+}
+
+.card-grid {
+  row-gap: 20px;
+}
+
+.what-i-learned .card-grid {
+  gap: 20px;
+}
+
+.what-i-learned .card {
+  padding: 20px;
+}
+
 /* ----- Experiment grid ----- */
 .experiment-grid {
   display: grid;
@@ -1204,13 +1220,19 @@ section {
 .chart-title {
   font-size: 1.2rem;
   margin-bottom: 16px;
-  color: #6bffa7;
+  color: #ffffff;
   font-weight: 500;
 }
 
 .chart-caption {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 12px;
+}
+
+.chart-insight {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.65);
   margin-bottom: 12px;
 }
 
@@ -1300,7 +1322,7 @@ p {
 }
 
 .section-content p + p {
-  margin-top: 12px;
+  margin-top: 0;
 }
 
 .highlight {
