@@ -185,11 +185,25 @@ button:hover {
 
 .btn--primary:hover,
 .button-primary:hover {
-  transform: translateY(-1px);
+  transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(34, 255, 170, 0.2);
   filter: none;
   color: #02120c;
-  background: linear-gradient(135deg, #7ef0c4, #33ffb3);
+  background: linear-gradient(135deg, #5bc598, #18d58f);
+}
+
+.hero-github-btn {
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background 0.2s ease,
+    filter 0.2s ease;
+}
+
+.hero-github-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 22px rgba(0, 255, 170, 0.2);
+  background: linear-gradient(135deg, #57bf93, #16c584);
 }
 
 .btn--primary:active,
@@ -1182,11 +1196,35 @@ section {
   box-shadow: 0 0 25px rgba(0, 255, 170, 0.15);
 }
 
+.chart-card--primary:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 0 28px rgba(0, 255, 170, 0.2);
+}
+
 .chart-title {
   font-size: 1.2rem;
   margin-bottom: 16px;
   color: #6bffa7;
   font-weight: 500;
+}
+
+.chart-caption {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 12px;
+}
+
+.chart-card {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .chart-container canvas,

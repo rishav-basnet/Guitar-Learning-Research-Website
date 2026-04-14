@@ -18,7 +18,10 @@ export default function Hero() {
               compare.
             </p>
             <div className="hero__actions">
-              <Button href="https://github.com/rishav-basnet/Guitar-Learning-Research">
+              <Button
+                href="https://github.com/rishav-basnet/Guitar-Learning-Research"
+                className="hero-github-btn"
+              >
                 View on GitHub
               </Button>
             </div>
