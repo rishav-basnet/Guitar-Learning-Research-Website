@@ -14,20 +14,23 @@ export default function WhatILearned() {
     >
       <div className="insights-grid card-grid">
         <InsightCard>
-          Improvement appeared first at lower speeds before transferring to
-          higher BPM levels.
+          <strong>Improvement appeared first</strong> at lower speeds before
+          transferring to <span className="highlight">higher BPM levels</span>.
         </InsightCard>
         <InsightCard>
-          Performance was inconsistent early on, even with repetition, showing
-          that familiarity alone doesn’t guarantee accuracy.
+          <strong>Performance was inconsistent early on</strong>, even with
+          repetition, showing that familiarity alone does not guarantee
+          <span className="highlight"> accuracy</span>.
         </InsightCard>
         <InsightCard>
-          Higher difficulty exposed timing and coordination errors that were not
-          noticeable at easier levels.
+          <strong>Higher difficulty exposed</strong> timing and coordination
+          errors that were not noticeable at
+          <span className="highlight"> easier levels</span>.
         </InsightCard>
         <InsightCard>
-          Tracking performance numerically made progress visible and reduced
-          reliance on subjective judgment.
+          <strong>Tracking performance numerically</strong> made progress
+          visible and reduced reliance on
+          <span className="highlight"> subjective judgment</span>.
         </InsightCard>
       </div>
     </Section>

@@ -12,25 +12,26 @@ export default function Factors() {
       }
     >
       <p>
-        Increasing speed made chord transitions harder, but the effect
-        depended on how much time was available to switch.
+        <strong>Increasing speed made chord transitions harder</strong>, but
+        the effect depended on how much time was available to switch.
       </p>
       <p>
         At easier levels (Mode 1), performance stayed relatively high even at
         faster speeds. This suggests that when there is enough time to move
-        between chords, speed alone is not a major problem.
+        between chords, <span className="highlight">speed alone</span> is not a
+        major problem.
       </p>
       <ul className="clean-list">
         <li>
-          At moderate difficulty (Mode 2), accuracy started to drop as speed
-          increased.
+          At moderate difficulty (Mode 2), <strong>accuracy started to drop</strong>{' '}
+          as speed increased.
         </li>
         <li>
           At higher difficulty levels (Modes 3 and 4), performance dropped
-          sharply.
+          <span className="highlight"> sharply</span>.
         </li>
         <li>
-          This shows speed does not act alone — it amplifies
+          This shows <strong>speed does not act alone</strong> — it amplifies
           <span className="highlight"> difficulty</span>.
         </li>
         <li>

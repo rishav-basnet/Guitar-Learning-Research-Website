@@ -14,18 +14,18 @@ export default function Reflection() {
         progress <span className="highlight">concrete instead of guesswork</span>.
       </p>
       <p>
-        It also revealed patterns I would not have noticed otherwise, like how
+        It also revealed <strong>patterns I would have missed</strong>, like how
         <span className="highlight"> improvement varies by difficulty</span> and
         how performance drops under time pressure.
       </p>
       <p>
-        Recording each session gave structure to my practice and made it more
+        <strong>Recording each session</strong> gave structure to my practice and made it more
         <strong>intentional day to day</strong>.
       </p>
       <hr className="reflection-divider" />
       <p className="reflection__closing">
         Even though this was a small experiment, it changed how I think about
-        learning. Progress isn’t always obvious day-to-day, but when it’s
+        learning. <strong>Progress is not always obvious day-to-day</strong>, but when it’s
         measured over time, it becomes <span className="highlight">clearer and
         easier to trust</span>.
       </p>
