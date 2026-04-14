@@ -23,8 +23,11 @@ export default function HowItStarted() {
         noticing.
       </p>
       <p>
-        So instead of guessing, I decided to treat my practice like a small
-        experiment and measure what was actually happening over time.
+        <strong>
+          So instead of guessing, I decided to treat my practice like a small
+          experiment and measure what was actually happening over time
+        </strong>
+        .
       </p>
     </NarrativeSection>
   )

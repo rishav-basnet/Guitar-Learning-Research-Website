@@ -40,7 +40,9 @@ export default function Factors() {
         </li>
       </ul>
       <p className="chart-insight">
-        Higher speed reduces accuracy more at higher difficulty levels.
+        <span className="highlight">
+          Higher speed reduces accuracy more at higher difficulty levels.
+        </span>
       </p>
       <div className="chart-card">
         <h3 className="chart-title">
@@ -55,7 +57,7 @@ export default function Factors() {
           />
         </div>
       </div>
-      <p className="chart-insight highlight-block">
+      <p className="chart-insight">
         Consistency appears only after repeated sessions and varies by mode.
       </p>
       <div className="chart-card">

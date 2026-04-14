@@ -31,8 +31,11 @@ export default function HowITested() {
         into a success rate.
       </p>
       <p>
-        By keeping everything constant, any change in performance would reflect
-        real improvement — not randomness.
+        <strong>
+          By keeping everything constant, any change in performance would reflect
+          real improvement — not randomness
+        </strong>
+        .
       </p>
       <p className="video-label">Reference practice routine</p>
       <div className="reference-video-wrapper video-container">

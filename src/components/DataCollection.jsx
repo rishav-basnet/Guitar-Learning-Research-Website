@@ -29,8 +29,10 @@ export default function DataCollection() {
       </p>
 
       <p className="chart-insight">
-        Each row represents one mode-speed condition, making session results easy to
-        compare.
+        <span className="highlight">
+          Each row represents one mode-speed condition, making session results easy to
+          compare.
+        </span>
       </p>
       <div className="chart-card">
         <h3 className="chart-title">Example of raw session data (Session 3)</h3>

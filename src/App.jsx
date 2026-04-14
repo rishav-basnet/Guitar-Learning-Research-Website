@@ -23,11 +23,11 @@ function App() {
         <TheProblem />
         <div className="section-divider" aria-hidden="true" />
         <HowITested />
+        <DataCollection />
         <DifficultyStructure />
         <SuccessCriteria />
         <Outcome />
         <Factors />
-        <DataCollection />
         <WhatILearned />
         <Reflection />
       </main>

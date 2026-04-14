@@ -34,8 +34,10 @@ export default function Outcome() {
         <li>Progress included dips and plateaus, not just steady growth.</li>
         <li>Improvement depended on speed and difficulty level.</li>
       </ul>
-      <p className="chart-insight highlight-block">
-        Performance improves early, then slows down in later sessions.
+      <p className="chart-insight">
+        <span className="highlight">
+          Performance improves early, then slows down in later sessions.
+        </span>
       </p>
       <div className="chart-card chart-card--primary">
         <h3 className="chart-title">How my performance improved over time</h3>

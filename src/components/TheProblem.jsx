@@ -24,8 +24,10 @@ export default function TheProblem() {
       <p>
         So the question became:
         <br />
-        How can you measure improvement in a skill where progress is usually
-        felt, not recorded?
+        <strong>
+          How can you measure improvement in a skill where progress is usually
+          felt, not recorded?
+        </strong>
       </p>
     </NarrativeSection>
   )

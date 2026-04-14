@@ -27,7 +27,7 @@ export default function Hero() {
             </div>
           </div>
           <div
-            className="hero__panel"
+            className="hero__panel hero-card"
             aria-label="Preview of practice progress over time"
           >
             <div className="hero-glow" aria-hidden="true" />
