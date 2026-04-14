@@ -67,7 +67,7 @@ h2 span {
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
   line-height: 1.65;
 }
 
@@ -213,8 +213,9 @@ button:hover {
 }
 
 .button {
-  background: #111;
-  color: #aaa;
+  background: #0f2f24;
+  color: #bfffe0;
+  border: 1px solid rgba(107, 255, 167, 0.3);
   transition: all 0.3s ease;
 }
 
@@ -222,7 +223,7 @@ button:hover {
   background: #6bffa7;
   color: #000;
   transform: translateY(-3px);
-  box-shadow: 0 0 15px rgba(107, 255, 167, 0.5);
+  box-shadow: 0 0 20px rgba(107, 255, 167, 0.6);
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -1087,12 +1088,17 @@ section {
   margin-top: 80px;
 }
 
-.data-image {
-  display: block;
+.session-image {
+  max-width: 600px;
   width: 100%;
-  max-width: 760px;
+  margin: 32px auto;
   border-radius: 12px;
-  margin-top: 0;
+  display: block;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
 }
 
 .card-grid {
@@ -1162,7 +1168,7 @@ section {
 /* ----- Final consistency overrides ----- */
 .section {
   margin-top: 64px;
-  margin-bottom: 64px;
+  margin-bottom: 80px;
 }
 
 .card {
@@ -1261,6 +1267,14 @@ section {
   margin-bottom: 12px;
 }
 
+.highlight-block {
+  display: inline-block;
+  background: rgba(107, 255, 167, 0.25);
+  padding: 6px 10px;
+  border-radius: 6px;
+  color: #ffffff;
+}
+
 .chart-card {
   opacity: 0;
   transform: translateY(10px);
@@ -1342,6 +1356,7 @@ h3 {
 }
 
 p {
+  margin-bottom: 24px;
   line-height: 1.7;
   color: rgba(255, 255, 255, 0.8);
 }

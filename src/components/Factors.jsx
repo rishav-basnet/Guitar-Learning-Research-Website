@@ -55,7 +55,7 @@ export default function Factors() {
           />
         </div>
       </div>
-      <p className="chart-insight">
+      <p className="chart-insight highlight-block">
         Consistency appears only after repeated sessions and varies by mode.
       </p>
       <div className="chart-card">

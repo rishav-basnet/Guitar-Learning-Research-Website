@@ -28,19 +28,18 @@ export default function DataCollection() {
         speed, and difficulty <strong>reliable and measurable</strong>.
       </p>
 
+      <p className="chart-insight">
+        Each row represents one mode-speed condition, making session results easy to
+        compare.
+      </p>
       <div className="chart-card">
         <h3 className="chart-title">Example of raw session data (Session 3)</h3>
 
-        <p className="chart-insight">
-          Each row represents a specific combination of mode and speed, along with
-          performance outcomes.
-        </p>
-
-        <div className="chart-container">
+        <div className="chart-container image-container">
           <img
             src="/figures/session_3_data_example.png"
             alt="Session 3 data table"
-            className="data-image"
+            className="session-image"
           />
         </div>
       </div>
