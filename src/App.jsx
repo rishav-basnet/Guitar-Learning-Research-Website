@@ -17,7 +17,9 @@ function App() {
       <MetricsStrip />
       <main className="main">
         <HowItStarted />
+        <div className="section-divider" aria-hidden="true" />
         <TheProblem />
+        <div className="section-divider" aria-hidden="true" />
         <HowITested />
         <DifficultyStructure />
         <SuccessCriteria />

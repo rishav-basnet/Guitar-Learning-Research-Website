@@ -1,8 +1,13 @@
-import Section from './Section'
+import NarrativeSection from './NarrativeSection'
 
 export default function HowItStarted() {
   return (
-    <Section id="how-it-started" title="How it started">
+    <NarrativeSection
+      id="how-it-started"
+      label="STORY"
+      titleBefore="How it "
+      titleAccent="started"
+    >
       <p>
         I was learning guitar and wanted to know whether progress was actually
         happening, and how fast it showed up.
@@ -15,6 +20,6 @@ export default function HowItStarted() {
         Turning practice into a small experiment made improvement something I
         could observe, not just assume.
       </p>
-    </Section>
+    </NarrativeSection>
   )
 }

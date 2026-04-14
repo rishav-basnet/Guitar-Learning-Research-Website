@@ -1,8 +1,13 @@
-import Section from './Section'
+import NarrativeSection from './NarrativeSection'
 
 export default function TheProblem() {
   return (
-    <Section id="the-problem" title="The problem">
+    <NarrativeSection
+      id="the-problem"
+      label="PROBLEM"
+      titleBefore="The "
+      titleAccent="problem"
+    >
       <p>
         Without a clear measure, it is hard to tell whether a practice session
         went well or whether you are actually improving week to week.
@@ -15,6 +20,6 @@ export default function TheProblem() {
         The goal was a simple way to track progress that stayed consistent even
         when how I felt on a given day did not.
       </p>
-    </Section>
+    </NarrativeSection>
   )
 }

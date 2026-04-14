@@ -1,8 +1,13 @@
-import Section from './Section'
+import NarrativeSection from './NarrativeSection'
 
 export default function HowITested() {
   return (
-    <Section id="how-i-tested" title="How I tested it">
+    <NarrativeSection
+      id="how-i-tested"
+      label="METHOD"
+      titleBefore="How I "
+      titleAccent="tested it"
+    >
       <p>
         I followed the same short routine every session so the results stay easy
         to compare across days.
@@ -24,6 +29,6 @@ export default function HowITested() {
         </a>
         .
       </p>
-    </Section>
+    </NarrativeSection>
   )
 }
