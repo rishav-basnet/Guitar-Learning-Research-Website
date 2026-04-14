@@ -5,8 +5,9 @@ import TheProblem from './components/TheProblem'
 import HowITested from './components/HowITested'
 import DifficultyStructure from './components/DifficultyStructure'
 import SuccessCriteria from './components/SuccessCriteria'
-import Analysis from './components/Analysis'
-import Insights from './components/Insights'
+import Outcome from './components/Outcome'
+import Factors from './components/Factors'
+import WhatILearned from './components/WhatILearned'
 import Reflection from './components/Reflection'
 
 function App() {
@@ -23,8 +24,9 @@ function App() {
         <HowITested />
         <DifficultyStructure />
         <SuccessCriteria />
-        <Analysis />
-        <Insights />
+        <Outcome />
+        <Factors />
+        <WhatILearned />
         <Reflection />
       </main>
     </div>
