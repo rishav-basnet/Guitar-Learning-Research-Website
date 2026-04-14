@@ -35,7 +35,7 @@ export default function HowITested() {
         real improvement - not randomness.
       </p>
       <p className="video-label">Reference practice routine</p>
-      <div className="reference-video-wrapper">
+      <div className="reference-video-wrapper video-container">
         <div className="reference-video-card method-video">
           <iframe
             src="https://www.youtube.com/embed/WtXb90taPOY"

@@ -24,7 +24,7 @@ export default function SuccessCriteria() {
         Instead of relying on how it felt, every attempt was judged using the
         same criteria.
       </p>
-      <div className="video-grid attempt-cards">
+      <div className="video-grid attempt-grid">
         <div className="video-card success-card attempt-card">
           <h3>✓ Successful attempt</h3>
           <div className="video-wrapper">

@@ -60,6 +60,16 @@
   --green-glow-soft: rgba(34, 255, 170, 0.06);
   --green-glow-medium: rgba(34, 255, 170, 0.12);
 
+  /* Global final layout system */
+  --section-gap: 96px;
+  --card-padding: 32px;
+  --card-radius: 20px;
+  --card-border: 1px solid rgba(80, 255, 160, 0.15);
+  --card-bg: rgba(255, 255, 255, 0.02);
+  --text-max-width: 680px;
+  --content-gap: 20px;
+  --grid-gap: 24px;
+
   font-family:
     'Inter',
     system-ui,

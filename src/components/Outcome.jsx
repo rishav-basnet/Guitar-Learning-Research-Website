@@ -38,7 +38,7 @@ export default function Outcome() {
           Overall, the data shows clear improvement - but also reflects how
           uneven and condition-dependent learning can be.
         </p>
-        <div className="chart-card">
+        <div className="chart-container">
           <img
             className="chart-image"
             src="/figures/learning_progression_clean_ratio.png"

@@ -38,7 +38,7 @@ export default function Factors() {
           When switching time becomes too short, performance breaks down
           regardless of repetition.
         </p>
-        <div className="chart-card">
+        <div className="chart-container">
           <img
             className="chart-image"
             src="/figures/clean_ratio_vs_bpm_by_mode.png"
@@ -47,7 +47,7 @@ export default function Factors() {
           />
           <p className="chart-caption">Performance vs speed and difficulty</p>
         </div>
-        <div className="chart-card">
+        <div className="chart-container">
           <img
             className="chart-image"
             src="/figures/max_bpm_clean_ratio_ge_075.png"
