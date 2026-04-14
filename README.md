@@ -1,43 +1,152 @@
-# Guitar Skill Acquisition Study — site
+# Guitar Skill Acquisition Study
 
-Presentation site for the [Guitar Learning Research](https://github.com/rishav-basnet/Guitar-Learning-Research) project (React + Vite).
+## Overview
 
-**Live site:** [rishav-guitar-research.vercel.app](https://rishav-guitar-research.vercel.app/)
+This project implements a controlled experiment to measure how a beginner improves at a motor skill under time constraints.
 
-## Run locally
+Instead of relying on subjective perception, performance is quantified using accuracy across varying speed (BPM) and difficulty levels. The goal is to transform practice — typically evaluated by intuition — into structured, measurable data.
 
-```bash
-npm install
-npm run dev
-```
+---
 
-Open the URL Vite prints (usually `http://localhost:5173`).
+## Problem
 
-Other scripts:
+Skill improvement is usually judged subjectively, making it difficult to detect real progress or compare performance over time.
 
-- `npm run build` — production build to `dist/`
-- `npm run preview` — serve the built `dist/` locally
+This project reframes practice as a measurable system, where performance can be tracked, compared, and analyzed under controlled conditions.
 
-## Deployment (Vercel)
+---
 
-The repo is connected to Vercel via GitHub. **Pushes to `main` trigger a new production deploy** using:
+## Approach
 
-- **Build command:** `npm run build`
-- **Output directory:** `dist`
+The experiment spans 7 sessions (one per day), enabling analysis of how performance evolves over time under consistent conditions.
 
-No backend or env vars are required for this static app. Vercel’s Vite preset picks the above up automatically; the repo keeps `build.outDir` set to `dist` in `vite.config.js` so local and CI builds stay aligned.
+Each session follows a fixed experimental structure:
 
-## Data Source
+- 4 difficulty modes  
+- 6 BPM levels: 60, 70, 80, 90, 100, 110  
+- 4 trials per (mode, BPM) condition  
 
-This website consumes precomputed CSVs from `public/outputs/`:
+Difficulty is controlled through mode, which reduces the available time to switch chords.  
+Speed is controlled through BPM, increasing overall time pressure.
 
-- `session_summary.csv`
-- `bpm_mode_accuracy.csv`
-- `threshold_summary.csv`
-- `highest_bpm_threshold.csv`
+By keeping the structure constant, performance differences reflect actual learning rather than randomness.
 
-These files are generated in the research repository by:
+---
 
-`python analysis/main_analysis.py`
+## Data Collection
 
-The site should not recompute analysis logic in frontend code.
+Each session records performance for every (mode, BPM) combination.
+
+- successful_trials: number of clean transitions (0–4)  
+- clean_ratio = successful_trials / 4  
+
+Each row represents a fixed condition, enabling direct comparison across sessions.
+
+Dataset location:
+data/main-data.csv
+
+---
+
+## Analysis
+
+The analysis focuses on:
+
+- Session progression  
+- BPM vs performance  
+- Difficulty impact  
+- Threshold behavior (≥ 0.75)  
+
+All calculations are centralized in:
+analysis/main_analysis.py
+
+Derived outputs:
+outputs/
+
+---
+
+## Key Insights
+
+- Performance improves rapidly in early sessions, then slows, indicating initial adaptation followed by stabilization  
+
+- Difficulty has a strong, non-linear impact on accuracy, with higher modes disproportionately reducing performance  
+
+- Speed alone does not explain performance decline — its effect is amplified at higher difficulty levels  
+
+- High accuracy thresholds are consistently achieved in easier modes but rarely reached in harder modes  
+
+- Performance varies across sessions even under identical conditions, showing that short-term progress is inherently unstable  
+
+---
+
+## Reproducibility
+
+All figures and results are generated from exported outputs.
+
+To regenerate:
+python analysis/main_analysis.py
+
+To verify:
+python analysis/verify_consistency.py
+
+All plots read from outputs/*.csv to ensure consistency.
+
+---
+
+## Project Structure
+
+data/       → raw dataset  
+analysis/   → processing and plotting scripts  
+outputs/    → computed results  
+docs/       → experiment documentation  
+
+---
+
+## Reflection
+
+Practice is not consistently progressive — variability is a core part of the learning process.
+
+Recording performance reveals patterns that are not visible through perception alone.
+
+---
+
+## Limitations
+
+- Single participant (n = 1)  
+- Short duration  
+- Manual data collection  
+
+This project explores structured practice patterns, not generalizable conclusions.
+
+---
+
+## Takeaway
+
+This project demonstrates how subjective skill development can be reframed as a measurable system.
+
+By controlling variables and tracking performance over time, practice can be analyzed objectively rather than inferred from perception.
+
+---
+
+## Tools
+
+- Python  
+- pandas  
+- matplotlib  
+
+---
+
+## Run the Analysis
+
+python3 -m venv .venv  
+source .venv/bin/activate  
+pip install -r requirements.txt  
+
+python analysis/01_load_and_verify.py  
+python analysis/main_analysis.py  
+python analysis/verify_consistency.py  
+python analysis/02_learning_progression.py  
+python analysis/03_clean_ratio_vs_bpm.py  
+python analysis/04_max_bpm_threshold.py  
+
+Outputs saved to:
+analysis/figures/
