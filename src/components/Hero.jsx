@@ -22,7 +22,7 @@ export default function Hero() {
                 View on GitHub
               </Button>
             </div>
-            <p className="hero__caption">
+            <p className="hero__caption subtle-text">
               Protocol notes, saved data, and analysis code are in the GitHub
               repository.
             </p>
@@ -31,6 +31,7 @@ export default function Hero() {
             className="hero__panel"
             aria-label="Preview of practice progress over time"
           >
+            <div className="hero-glow" aria-hidden="true" />
             <HeroMiniChart />
           </div>
         </div>

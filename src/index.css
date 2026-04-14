@@ -48,6 +48,18 @@
   --prose-width: 65ch;
   --container-max: 1100px;
 
+  /* Spacing scale (layout polish) */
+  --space-xs: 0.5rem;
+  --space-sm: 0.8rem;
+  --space-md: 1.2rem;
+  --space-lg: 1.8rem;
+  --space-xl: 2.6rem;
+  --space-2xl: 4rem;
+
+  /* Controlled green glow */
+  --green-glow-soft: rgba(34, 255, 170, 0.06);
+  --green-glow-medium: rgba(34, 255, 170, 0.12);
+
   font-family:
     'Inter',
     system-ui,
@@ -91,7 +103,7 @@ body::before {
   inset: 0;
   background: radial-gradient(
     circle at 70% 30%,
-    rgba(34, 255, 170, 0.08),
+    var(--green-glow-soft),
     transparent 60%
   );
   pointer-events: none;
@@ -116,6 +128,7 @@ button:focus-visible {
 
 @media (prefers-reduced-motion: reduce) {
   .btn,
+  .button-primary,
   .text-link {
     transition: none;
   }

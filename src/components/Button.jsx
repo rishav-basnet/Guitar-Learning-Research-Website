@@ -7,7 +7,9 @@ export default function Button({
 }) {
   return (
     <a
-      className={['btn', 'btn--primary', className].filter(Boolean).join(' ')}
+      className={['btn', 'btn--primary', 'button-primary', className]
+        .filter(Boolean)
+        .join(' ')}
       href={href}
       {...(external ? { target: '_blank', rel: 'noreferrer' } : {})}
       {...rest}
