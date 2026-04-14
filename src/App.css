@@ -48,7 +48,8 @@
 }
 
 h1,
-h2 {
+h2,
+h3 {
   font-weight: 600;
   letter-spacing: -0.02em;
 }
@@ -69,6 +70,7 @@ h2 span {
 p {
   margin-bottom: 24px;
   line-height: 1.65;
+  color: rgba(245, 245, 245, 0.9);
 }
 
 /* ----- Card ----- */
@@ -335,12 +337,6 @@ button:hover {
   padding-block: clamp(3.5rem, 10vw, var(--sp-24)) clamp(2.5rem, 6vw, var(--sp-20));
   border-bottom: 1px solid rgba(36, 48, 68, 0.9);
   box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
-  font-family:
-    'Plus Jakarta Sans',
-    'Inter',
-    system-ui,
-    -apple-system,
-    sans-serif;
 }
 
 .hero::before {
@@ -686,7 +682,7 @@ section {
   margin: 0 0 24px;
   line-height: 1.65;
   max-width: 720px;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(245, 245, 245, 0.9);
 }
 
 .section-content p:last-child {
@@ -1008,7 +1004,7 @@ section {
 .section-content .chart-caption {
   margin: 10px 0 0;
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(195, 201, 199, 0.88);
   line-height: 1.5;
   max-width: none;
 }
@@ -1112,27 +1108,30 @@ section {
 }
 
 .session-image-container {
-  max-width: 700px;
+  width: 100%;
+  max-width: 665px;
   margin: 20px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 12px;
-  overflow: hidden;
   border: 1px solid rgba(0, 255, 150, 0.15);
-  box-shadow: 0 0 20px rgba(0, 255, 150, 0.05);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.26);
   cursor: zoom-in;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .session-image-container:hover {
-  transform: scale(1.01);
+  transform: scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.32);
 }
 
 .session-image-container img {
   width: 100%;
   height: auto;
-  max-height: 420px;
-  object-fit: cover;
-  object-position: top;
+  object-fit: contain;
   display: block;
+  border-radius: 12px;
 }
 
 .session-caption {
@@ -1384,6 +1383,8 @@ section {
 h1,
 h2,
 h3 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
   line-height: 1.2;
   margin-bottom: 12px;
 }
@@ -1391,7 +1392,7 @@ h3 {
 p {
   margin-bottom: 24px;
   line-height: 1.7;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(245, 245, 245, 0.9);
 }
 
 .section-content p + p {
