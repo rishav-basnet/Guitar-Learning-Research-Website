@@ -4,25 +4,29 @@ export default function SuccessCriteria() {
   return (
     <NarrativeSection
       id="success-criteria"
-      label="CRITERIA"
-      titleBefore="Success "
-      titleAccent="criteria"
+      className="criteria-section"
+      label="WHAT MAKES A TRIAL"
+      titleBefore=""
+      titleAccent="SUCCESSFUL?"
     >
       <p>
-        Success for a single trial means a clean chord change on time within the
-        window set by the mode. Across the study, I looked for upward movement in
-        those scores over sessions, not perfection on every block.
+        A trial is successful when the chord transition is clean and happens on
+        time within the rhythm.
       </p>
       <div className="video-grid">
-        <div className="video-card">
-          <h4>Successful Attempt</h4>
-          <div className="video-placeholder">Video</div>
-          <p>Clean chord transition, on beat</p>
+        <div className="video-card success-card">
+          <h4>✓ Successful attempt</h4>
+          <div className="video-placeholder">
+            <span>Click to play</span>
+          </div>
+          <p>Clean, on-beat chord transition</p>
         </div>
-        <div className="video-card">
-          <h4>Unsuccessful Attempt</h4>
-          <div className="video-placeholder">Video</div>
-          <p>Muted or delayed transition</p>
+        <div className="video-card fail-card">
+          <h4>✗ Unsuccessful attempt</h4>
+          <div className="video-placeholder">
+            <span>Click to play</span>
+          </div>
+          <p>Muted or delayed chord transition</p>
         </div>
       </div>
     </NarrativeSection>

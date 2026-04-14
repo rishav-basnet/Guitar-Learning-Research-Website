@@ -6,6 +6,7 @@ export default function NarrativeSection({
   titleBefore,
   titleAccent,
   titleAfter = '',
+  className = '',
   children,
   reveal = true,
 }) {
@@ -16,7 +17,7 @@ export default function NarrativeSection({
   return (
     <section
       ref={ref}
-      className={['section', revealClass].filter(Boolean).join(' ')}
+      className={['section', className, revealClass].filter(Boolean).join(' ')}
       id={id}
       aria-labelledby={`${id}-heading`}
     >
