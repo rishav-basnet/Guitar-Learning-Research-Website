@@ -3,7 +3,7 @@ import Hero from './components/Hero'
 import MetricsStrip from './components/MetricsStrip'
 import HowItStarted from './components/HowItStarted'
 import TheProblem from './components/TheProblem'
-import ExperimentDesign from './components/ExperimentDesign'
+import HowITested from './components/HowITested'
 import Analysis from './components/Analysis'
 import Insights from './components/Insights'
 import Reflection from './components/Reflection'
@@ -16,7 +16,7 @@ function App() {
       <main className="main">
         <HowItStarted />
         <TheProblem />
-        <ExperimentDesign />
+        <HowITested />
         <Analysis />
         <Insights />
         <Reflection />
