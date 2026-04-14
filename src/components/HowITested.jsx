@@ -17,18 +17,24 @@ export default function HowITested() {
         four trials per cell. Each trial was scored as a success or not based on
         clean, on-time chord changes within the mode window.
       </p>
-      <p>
-        The protocol video (same routine each session) is on YouTube:{' '}
-        <a
-          className="text-link"
-          href="https://www.youtube.com/watch?v=WtXb90taPOY"
-          target="_blank"
-          rel="noreferrer"
-        >
-          watch on YouTube
-        </a>
-        .
-      </p>
+      <p className="video-label">Reference practice routine</p>
+      <div className="reference-video-card">
+        <iframe
+          src="https://www.youtube.com/embed/WtXb90taPOY"
+          title="Practice routine reference"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+        />
+      </div>
+      <a
+        className="video-link"
+        href="https://www.youtube.com/watch?v=WtXb90taPOY"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Open on YouTube →
+      </a>
     </NarrativeSection>
   )
 }
