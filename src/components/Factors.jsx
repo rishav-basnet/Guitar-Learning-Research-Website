@@ -38,13 +38,13 @@ export default function Factors() {
           regardless of repetition.
         </li>
       </ul>
+      <p className="chart-insight">
+        Higher speed reduces accuracy more at higher difficulty levels.
+      </p>
       <div className="chart-card">
         <h3 className="chart-title">
           How speed affects accuracy at different difficulty levels
         </h3>
-        <p className="chart-caption">
-          Accuracy drops as tempo rises, especially in harder modes.
-        </p>
         <div className="chart-container">
           <img
             className="chart-image"
@@ -54,11 +54,11 @@ export default function Factors() {
           />
         </div>
       </div>
+      <p className="chart-insight">
+        Consistency appears only after repeated sessions and varies by mode.
+      </p>
       <div className="chart-card">
         <h3 className="chart-title">Highest speed I could maintain accuracy</h3>
-        <p className="chart-caption">
-          High-speed consistency appears later and remains mode-dependent.
-        </p>
         <div className="chart-container">
           <img
             className="chart-image"
