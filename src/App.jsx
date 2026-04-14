@@ -5,6 +5,7 @@ import HowItStarted from './components/HowItStarted'
 import TheProblem from './components/TheProblem'
 import HowITested from './components/HowITested'
 import DifficultyStructure from './components/DifficultyStructure'
+import SuccessCriteria from './components/SuccessCriteria'
 import Analysis from './components/Analysis'
 import Insights from './components/Insights'
 import Reflection from './components/Reflection'
@@ -19,6 +20,7 @@ function App() {
         <TheProblem />
         <HowITested />
         <DifficultyStructure />
+        <SuccessCriteria />
         <Analysis />
         <Insights />
         <Reflection />
