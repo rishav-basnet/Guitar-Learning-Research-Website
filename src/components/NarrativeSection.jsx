@@ -21,12 +21,12 @@ export default function NarrativeSection({
       id={id}
       aria-labelledby={`${id}-heading`}
     >
-      <div className="container">
+      <div className="page-container">
         <div className="section-card">
           <p className="section-label">{label}</p>
           <h2 className="section-title" id={`${id}-heading`}>
             {titleBefore}
-            {titleAccent ? <span>{titleAccent}</span> : null}
+            {titleAccent ? <span className="highlight">{titleAccent}</span> : null}
             {titleAfter}
           </h2>
           <div className="section-content">{children}</div>

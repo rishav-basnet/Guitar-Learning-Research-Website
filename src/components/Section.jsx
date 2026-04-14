@@ -15,19 +15,21 @@ export default function Section({
   return (
     <section
       ref={ref}
-      className={['container', 'section', className, revealClass]
+      className={['section', className, revealClass]
         .filter(Boolean)
         .join(' ')}
       id={id}
       aria-labelledby={id ? `${id}-heading` : undefined}
     >
-      {label ? <p className="section-label">{label}</p> : null}
-      <h2 className="section-title" id={id ? `${id}-heading` : undefined}>
-        {title}
-      </h2>
-      {children != null && children !== false && (
-        <div className="section-content">{children}</div>
-      )}
+      <div className="page-container">
+        {label ? <p className="section-label">{label}</p> : null}
+        <h2 className="section-title" id={id ? `${id}-heading` : undefined}>
+          {title}
+        </h2>
+        {children != null && children !== false && (
+          <div className="section-content">{children}</div>
+        )}
+      </div>
     </section>
   )
 }

@@ -3,7 +3,7 @@ import Section from './Section'
 
 export default function Reflection() {
   return (
-    <Section id="reflection" title="Reflection">
+    <Section id="reflection" title="Reflection" className="reflection">
       <Card interactive>
         <p>
           At the beginning, practice felt inconsistent and hard to judge. Some
@@ -24,6 +24,7 @@ export default function Reflection() {
           learning — not just in guitar, but in any skill where progress is hard
           to notice day-to-day.
         </p>
+        <div className="reflection-divider" aria-hidden="true" />
         <p className="reflection__closing">
           This experiment showed me that progress becomes much clearer when it
           is measured, not just felt.

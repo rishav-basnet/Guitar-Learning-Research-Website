@@ -5,7 +5,11 @@ export default function WhatILearned() {
   return (
     <Section
       id="what-i-learned"
-      title="What I learned"
+      title={
+        <>
+          What I <span className="highlight">learned</span>
+        </>
+      }
       className="section--insights"
     >
       <div className="insights-grid">
@@ -23,7 +27,7 @@ export default function WhatILearned() {
           Difficulty helps reveal weaknesses that are not visible at easier
           levels.
         </InsightCard>
-        <InsightCard>
+        <InsightCard className="full">
           Measuring performance makes progress easier to understand and trust.
         </InsightCard>
       </div>

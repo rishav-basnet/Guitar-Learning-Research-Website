@@ -18,14 +18,16 @@ export default function HowITested() {
         clean, on-time chord changes within the mode window.
       </p>
       <p className="video-label">Reference practice routine</p>
-      <div className="reference-video-card">
-        <iframe
-          src="https://www.youtube.com/embed/WtXb90taPOY"
-          title="Practice routine reference"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
+      <div className="reference-video-wrapper">
+        <div className="reference-video-card">
+          <iframe
+            src="https://www.youtube.com/embed/WtXb90taPOY"
+            title="Practice routine reference"
+            frameBorder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
       </div>
       <a
         className="video-link"
