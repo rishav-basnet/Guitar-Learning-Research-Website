@@ -12,6 +12,8 @@ import Reflection from './components/Reflection'
 function App() {
   return (
     <div className="app">
+      <div className="bg-blob blob-1" aria-hidden="true" />
+      <div className="bg-blob blob-2" aria-hidden="true" />
       <Hero />
       <main className="main">
         <HowItStarted />
